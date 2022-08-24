@@ -1,0 +1,227 @@
+body{
+    background-color: black;
+}
+/* #red_navbar{
+    width: 100%;
+  
+    border: 2px red;
+    
+} */
+#red_navbar{
+    border: 2px solid red;
+    height: 26px;
+    /* width: 100%; */
+    background-color: red;
+    margin: 0px;
+    margin-top: -8px;
+    /* margin-left: -10px; */
+    /* position: absolute; */
+    text-align: center;
+    justify-content: center;
+    
+}
+#red_navbar>p{
+    font-style: monsterrant;
+    color: aliceblue;
+    margin-top: 6px;
+    font-family: Sans-serif;
+    font-size: 14px;
+}
+#main_navbar{
+    /* border: 2px solid white; */
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+}
+#boat_icon{
+    height: 40px;
+    width: 90px;
+    margin-left: 30px;
+}
+#btn_div{
+    text-align: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 20px;
+    
+}
+#btn_div>button{
+    color: aliceblue;
+    background-color: black;
+    font-family: Sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+}
+#Shop_btn:hover,
+#Shop_btn:hover{
+    background-size: 0 0.1em, 100% 0.1em;
+}
+#Shop_btn{
+    background: 
+      linear-gradient(to right, black,black),
+      linear-gradient(to right, aliceblue, aliceblue, aliceblue);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+  /* ------------------------------------------------ */
+a:hover,
+a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+a {
+    background: 
+      linear-gradient(to right, black,black),
+      linear-gradient(to right, aliceblue, aliceblue, aliceblue);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+/* ------------------------------- */
+ 
+a{
+    text-decoration: aliceblue;
+    color: aliceblue;
+}
+#input_div{
+    margin-left: 40px;
+    width: 230px;
+    /* border: 2px solid wheat; */
+} 
+#input{
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 60px;
+}
+#l_g_c_btns{
+    /* border: 2px solid red; */
+    margin-left: 10px;
+}
+#l_g_c_btns>button{
+    background-color: black;
+    color: black;
+    margin-top: 15px;
+}
+/* -------------------------------------------------------- */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  /* border: 2px solid yellow; */
+}
+.slideshow-container:hover{
+    cursor: pointer;
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* --------------------------------------------------------------------------------- */
+#subdiv1{
+  display: felx;
+  /* border: 2px solid white; */
+ 
+}
+#subdiv2{
+  display: felx;
+  /* border: 2px solid white; */
+ 
+}
+#subdiv3{
+  display: felx;
+  /* border: 2px solid white; */
+  margin-left: 120px;
+}
+.p_img{
+  width: 240px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#more_btn_img{
+  background-image : url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/web-banner-shop-now_2_f29ea286-44e1-4022-aa8f-fcd2d3d0bc0c_2000x.jpg?v=1659763025")
+}
