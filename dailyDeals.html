@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Deals – boAt Lifestyle</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #bigbox{
+        width:200px;
+        /* border:1px solid black; */
+        padding:15px;
+        text-decoration: none;
+        margin-top: -1100px;
+        }
+        #bigbox>button{
+        margin: 1px;
+        text-transform: uppercase;
+        }
+        #move{
+        /* border:1px solid red; */
+        margin:auto;
+        background-color: none;
+        }
+        a{
+        text-decoration:none;
+        }
+        #display{
+        display: flex;
+        text-align: start;
+        }
+        button{
+        background: none;
+        }
+        #p{
+        color: rgb(111, 104, 104);
+        margin-top: 40px;
+        margin-left: 30px; 
+        }
+        #h1{
+        color: white;
+        margin-top: -10px;
+        margin-bottom: -30px;
+        margin-left: 30px;
+        }        
+    </style>
+</head>
+<body>
+     <!-- Cancel out noise with Airdopes  131.   -->
+    <div class="announcment">
+        <a href="./Airdopes.html">
+        <div class="inner_announcment">
+        <b>All your favourite boAt products at heavy bargains. <span class="underline">Shop  NOW!</span></b>
+        </div>
+        </a>
+    </div>
+   <!-- announcment part done here -->
+   
+<div class="navbar">
+    <div id="boat_logo">  <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_137f5a28-b960-4963-b1fd-e91c60e436a9_200x.png?v=1640587883" alt="">
+    </div>          
+    <div class="menu">
+        <div title="Shop">Shop <span> <i class="fa-solid fa-angle-down"></i>
+        </span></div>
+        <div id="dd" title="Daily deals" style="color: white;"><a href="./dailyDeals.html">Daily deals</a> </div>
+        <div id="cham"  title="Move of Champions" >  Offer Zone</a></div>
+        <div title="More">More <span><i class="fa-solid fa-angle-down"></i></span>
+        </div>      
+    </div>
+
+    <!--------Search function form here--------->
+
+    <div class="searchBox">
+        <div id="searchBtn">  
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <input type="search"   class="searchText" placeholder="Search" onkeyup="Search()"  />
+    </div>
+    <div class="end_nav">            
+         <div id="card_gift" title="Gift Card" >  <img  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt=""> </div>
+           <div id="myAccount" title="My Account" ><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="">  </div> 
+         <div id="myCart" title="Cart"  > <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/cart.png?v=1606314839" alt="">  <div id="cartItems">0 </div></div>         
+    </div>
+</div>
+
+<div id="container"></div>
+
+<!-- ************  Footer Section*************************** -->
+<div class="text" style="background-color:
+ #2c2c2c;padding: 20px;
+  text-align:center;">
+ <p style="font-size: 16px;
+ margin: auto;
+ color: #8f8f8f;
+ line-height: 20px;
+ text-align: center;
+  width:70%;
+ margin: auto">
+ India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones,smart watches, and home audio. From workouts to adventures,
+ boAt will get you sailing!</p>
+</div>
+<div id="footer_part"></div>
+</body>
+</html> 
+
+
+<script type="module">
+    import {footer} from "./footer.js"
+    document.getElementById("footer_part").innerHTML = footer();
+</script>
+<script src="./dailyDeals.js"></script>
