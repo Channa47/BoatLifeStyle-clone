@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+         *{
+            background-color: #252525;
+        }
+        #main{
+            width: 50%;
+            border: 1px solid red;
+            height: 800px;
+            margin: auto;
+            border-color: transparent;
+            text-align: center;
+        }
+        #main h1{
+            font-size: 50px;
+            font-weight: lighter;
+            color: white;
+        }
+        #main p{
+            font-size: 25px;
+            color: white;
+            font-weight: lighter;
+        }
+        #main div {
+            display: flex;
+            padding-left: 45%;
+        }
+        img{
+            width: 50px;
+            margin-top: 50px;
+            border-radius: 50px;
+        }
+        input{
+            width: 90%;
+            height: 70px;
+            margin-top: 30px;
+            border-color: #a29999;
+            border-radius: 10px;
+            font-size: 25px;
+            font-weight: lighter;
+            padding-left: 30px;
+            color: #252525;
+        }
+        #submit{
+            width: 95%;
+            background-color: red;
+            color: white;
+            font-size: 25px;
+            font-weight: lighter;
+        }
+        h2{
+            margin-top: 20px;
+            color: #5d5b5b;
+            font-size: 25px;
+        }
+        #bottom{
+            color: #5d5b5b;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div id="main">
+            <h1>Register</h1>
+            <p>Please fill in the fields below:</p>
+            <input type="text" id="firstName" placeholder="First name">
+            <input type="text" id="lastName" placeholder="Last name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="submit" id="submit" value="CREATE ACCOUNT">
+            <h2>Already have an account? <a style="color: #5d5b5b;" href="./login.html">Login</a></h2>
+        </div>
+    </form>
+    <div id="bottom">
+        <p>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones, smart watches, and home audio. From workouts to adventures, boAt will get you sailing!</p>
+    </div>
+    
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit",myfun)
+clientArr = JSON.parse(localStorage.getItem("clientDetail")) || []
+function myfun(event){
+    event.preventDefault()
+     let clientData = {
+         firstName:document.querySelector("#firstName").value,
+         lastName:document.querySelector("#lastName").value,
+         email:document.querySelector("#email").value,
+         password:document.querySelector("#password").value,
+     }
+    if(checkEmail(clientData.email) === true){
+        clientArr.push(clientData)
+      localStorage.setItem("clientDetail",JSON.stringify(clientArr))
+      alert("signup succesful")
+      window.location.href = "login.html"
+    }
+    else{
+        alert("account already exists")
+    }
+
+}
+function checkEmail(email){
+    let filtered = clientArr.filter(function(element){
+        return email === element.email;
+    })
+    if(filtered.length>0){
+    return false;
+}
+else{
+    return true;
+}
+}
+
+
+</script>
