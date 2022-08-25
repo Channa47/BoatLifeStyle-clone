@@ -17,33 +17,8 @@
         </a>
     </div>
    <!-- announcment part done here -->
-   
-<div class="navbar">
-    <div id="boat_logo">  <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_137f5a28-b960-4963-b1fd-e91c60e436a9_200x.png?v=1640587883" alt="">
-    </div>          
-    <div class="menu">
-        <div title="Shop">Shop <span> <i class="fa-solid fa-angle-down"></i>
-        </span></div>
-        <div id="dd" title="Daily deals" style="color: white;"><a href="./dailyDeals.html">Daily deals</a> </div>
-        <div id="cham"  title="Offer Zone"><a href="./offerzone.html">Offer Zone</a></div>
-        <div title="More">More <span><i class="fa-solid fa-angle-down"></i></span>
-        </div>      
-    </div>
-
-    <!--------Search function form here--------->
-
-    <div class="searchBox">
-        <div id="searchBtn">  
-        <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <input type="search"   class="searchText" placeholder="Search" onkeyup="Search()"  />
-    </div>
-    <div class="end_nav">            
-         <div id="card_gift" title="Gift Card" >  <img  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt=""> </div>
-           <div id="myAccount" title="My Account" ><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/user_1.png?v=1606314823" alt="">  </div> 
-         <div id="myCart" title="Cart"  > <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/cart.png?v=1606314839" alt="">  <div id="cartItems">0 </div></div>         
-    </div>
-</div>
+  <!-- Navbar Part -->
+   <div id="main_navbar"></div>
 
 <div id="countdown">
    <!-- Display the countdown timer in an element -->
@@ -57,8 +32,8 @@
     <option value="">Best selling</option>
     <option value="">Alphabetically, A-Z</option>
     <option value="">Alphabetically, Z-A </option>
-    <option value="">Price, low to high</option>
-    <option value="">Price, high to low</option>
+    <option value="" onclick="Sortlh()">Price, low to high</option>
+    <option value="" onclick="Sorthl()">Price, high to low</option>
     <option value="">Date, old to new</option>
     <option value="">Date, new to old</option>
   </select>
@@ -277,5 +252,9 @@
 <script type="module">
     import {footer} from "./footer.js"
     document.getElementById("footer_part").innerHTML = footer();
+    import main_navbar from "./components.js";
+let container = document.getElementById("main_navbar");
+let navbar = main_navbar();
+container.innerHTML = navbar;
 </script>
 <script src="./dailyDeals.js"></script>

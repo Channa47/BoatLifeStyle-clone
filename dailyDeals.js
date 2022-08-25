@@ -13,18 +13,26 @@
 
  /****************************************************************************/
 const cartButton = document.querySelectorAll('.cart_items');
-let cart_arr = JSON.parse(localStorage.getItem("cartpage")) || [];
+// let cart_arr = JSON.parse(localStorage.getItem("cartpage")) || [];
 let container = document.getElementById("container");
 
-cartButton.forEach(box => {
-  box.addEventListener('click', function handleClick(event) {
-    console.log("Hello");
-    let obj={
-      image:"",
-      title:"",
-      price:"",
-    };
-    cart_arr.push(obj);
-    localStorage.setItem("cartpage", JSON.stringify());
-  });
-});
+// cartButton.forEach(box => {
+//   box.addEventListener('click', function handleClick(event) {
+//     console.log("Hello");
+//     let obj={
+//       image:"",
+//       title:"",
+//       price:"",
+//     };
+//     cart_arr.push(obj);
+//     localStorage.setItem("cartpage", JSON.stringify());
+//   });
+// });
+
+function Sortlh(a,b) {          //Sort low to high
+  return a-b;
+};
+
+function Sorthl(a,b) {        // Sort high to low
+  return b-a;
+};
