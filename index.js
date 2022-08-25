@@ -116,3 +116,71 @@ let more = ()=>{
   
   
 }
+
+
+
+// ==============================================================
+//Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click",topFunction)
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let car_arr = JSON.parse(localStorage.getItem("cart_items")) || [];
+document.getElementById("num").innerText = car_arr.length;
+
+ document.querySelector(".add_to_cart_btn").addEventListener("click",function(){
+  addItemtocar();
+ });
+
+ let addItemtocar = () =>{
+  let img = document.querySelector(".products").src;
+  let title = document.querySelector(".name").innerText;
+  let reviews = document.querySelector(".reviews").innerText;
+  let price = document.querySelector(".price").innerText;
+
+  console.log(img,title,reviews,price);
+
+  function data (i,t,r,p){
+    this.img = i;
+    this.title = t;
+    this.reviews = r;
+    this.price = p;
+  }
+  let p1 = new data(img,title,reviews,price);
+  console.log(p1);
+  car_arr.push(p1);
+
+  localStorage.setItem("cart_items",JSON.stringify(car_arr));
+  let el = document.getElementById("num");
+  el.innerText = null;
+  el.innerText = car_arr.length;
+ }
+ 
+
+//  let data = JSON.parse(localStorage.getItem("cart_items")) || [];
+
+//  let num = data.length;
+//  console.log(num);
+
+ 
+
+
+
+

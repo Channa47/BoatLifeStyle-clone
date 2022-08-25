@@ -102,9 +102,28 @@ a{
     margin-left: 10px;
 }
 #l_g_c_btns>button{
-    background-color: black;
-    color: black;
-    margin-top: 15px;
+    background-color:black;
+    /* color: white;  */
+    margin-top: -10px;
+}
+#l_img{
+  width: 30px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+#g_img{
+  width: 30px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+#c_img{
+  width: 30px;
+  margin-top: 20px;
+  /* margin-bottom: -px; */
+ 
+}
+#num{
+  color: red;
 }
 /* -------------------------------------------------------- */
 * {box-sizing:border-box}
@@ -224,4 +243,120 @@ a{
 }
 #more_btn_img{
   background-image : url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/web-banner-shop-now_2_f29ea286-44e1-4022-aa8f-fcd2d3d0bc0c_2000x.jpg?v=1659763025")
+}
+#best_seller{
+  margin-top: 20px;
+  /* border:  2px solid red; */
+  margin-left: 20px;
+  display: flex;
+}
+.price_details{
+  background-color:whitesmoke;
+  border-radius: 20px;
+  /* border: 10px; */
+}
+#best_seller>div{
+  width: 20%;
+  /* border: 2px solid yellow; */
+  margin-left: 50px;
+  border-radius: 20px;
+  background-color: azure; 
+  
+}
+.p_div{
+  margin-right: 10px;
+  border: red;
+ 
+  
+}
+.add_to_cart_btn{
+  background-color: rgb(215, 215, 27);
+  /* border-color: rgb(215, 215, 27); */
+  width: 200px;
+  height: 50px;
+  margin-left: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  color:aliceblue
+}
+.scrtch{
+  text-decoration:line-through;
+  color: #717171;
+}
+.ppp{
+  display: flex;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+.products{
+  width:250px;
+  margin-right: -20px;
+  /* border: 2px saddlebrown; */
+
+}
+.head{
+  color: aliceblue;
+  text-align: center;
+}
+.name{
+  margin-top: -10px;
+}
+.reviews{
+  margin-top: -20px;
+}
+.yousave{
+  margin-top: -20px;
+}
+.price{
+  color: red;
+}
+.prce_details_1stdiv{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.pric_details{
+  margin-top: 7px;
+  background-color:whitesmoke;
+  width: 250px;
+  margin-left: 33px;
+}
+.video{
+  width: 200px;
+}
+#gif{
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.bhoooooom{
+  border: 2px white;
+}
+/* ================================================== */
+/*  */
+#myBtn {
+  /* display: none;Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+ 
+}
+
+#myBtn:hover {
+  background-color: rgb(248, 242, 242); /* Add a dark-grey background on hover */
+}
+/* =============================================================================== */
+#nav_div_{
+  display: flex;
 }
