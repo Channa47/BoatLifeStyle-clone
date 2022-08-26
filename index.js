@@ -19,7 +19,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
 //  
@@ -178,6 +178,23 @@ document.getElementById("num").innerText = car_arr.length;
 
 //  let num = data.length;
 //  console.log(num);
+
+
+var input = document.getElementById("input");
+
+
+input.addEventListener("keypress", function(event) {
+  
+  if (event.key === "Enter") {
+    event.preventDefault();
+    let q = input.value;
+    if(q==="airpods"){
+      window.location.href="./airpods.html"
+    }else if(q==="smartwatch"){
+      window.location.href="./smartwatch.html"
+    }
+  }
+});
 
  
 

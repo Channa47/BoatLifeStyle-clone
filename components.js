@@ -3,10 +3,10 @@ let main_navbar = ()=>{
     <div id="btn_div">
        <button id="Shop_btn">Shop &#9660;</button>
         <button>
-            <a href="">Daily deals</a>
+            <a href="./dailyDeals.html">Daily deals</a>
         </button>
         <button>
-            <a href="">Offer zones </a></button>
+            <a href="./offerzone.html">Offer zones </a></button>
         <button id="more_btn">
             <a href="">More &#9660;</a>
         </button>
@@ -16,10 +16,12 @@ let main_navbar = ()=>{
     </div>
     <div id="l_g_c_btns">
         <button ><a href="./Sign_in.html"><img id="l_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048" alt=""></a></button>
-        <button><a href=""><img id="g_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt=""></a></button>
-        <button><a href=""><div id="nav_div_"><img id="c_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047" alt=""><p id="num">0</p></div></button>
+        <button><a href="./giftcard.html"><img id="g_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt=""></a></button>
+        <button><a href="./payment/cart.html"><div id="nav_div_"><img id="c_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047" alt=""><p id="num">0</p></div></button>
     </div>`
 }
+
+
 
 export default main_navbar;
 

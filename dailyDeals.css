@@ -512,7 +512,7 @@ color: #8F8F8F;
     font-size: 14px;
 }
 #main_navbar{
-    /* border: 2px solid white; */
+    border: 2px solid white;
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -525,8 +525,8 @@ color: #8F8F8F;
 #btn_div{
     text-align: center;
     justify-content: center;
-    margin-left: 250px;
-    margin-top: 20px;
+    /* margin-left: 10px; */
+    /* margin-top: 20px; */
     
 }
 #btn_div>button{
@@ -534,7 +534,7 @@ color: #8F8F8F;
     background-color: black;
     font-family: Sans-serif;
     font-size: 16px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 #Shop_btn:hover,
 #Shop_btn:hover{
@@ -572,7 +572,7 @@ a{
 }
 #input_div{
     margin-left: 40px;
-    width: 230px;
+    width: 200px;
     /* border: 2px solid wheat; */
 } 
 #input{
