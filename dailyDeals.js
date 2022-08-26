@@ -15,19 +15,20 @@
 const cartButton = document.querySelectorAll('.cart_items');
 // let cart_arr = JSON.parse(localStorage.getItem("cartpage")) || [];
 let container = document.getElementById("container");
-
-// cartButton.forEach(box => {
-//   box.addEventListener('click', function handleClick(event) {
-//     console.log("Hello");
-//     let obj={
-//       image:"",
-//       title:"",
-//       price:"",
-//     };
-//     cart_arr.push(obj);
-//     localStorage.setItem("cartpage", JSON.stringify());
-//   });
-// });
+let cart_arr = [];
+cartButton.forEach(box => {
+  box.addEventListener('click', function handleClick(event) {
+    console.log("Hello");
+    let obj={
+      image:document.getElementById("img").src,
+      title:document.getElementById("title"),
+      price:document.getElementById("price"),
+      discount: document.getElementById("discount")
+    };
+    cart_arr.push(obj);
+    localStorage.setItem("cart_items", JSON.stringify(cart_arr));
+  });
+});
 
 function Sortlh(a,b) {          //Sort low to high
   return a-b;

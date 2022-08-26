@@ -12,7 +12,6 @@
     box-shadow: rgba(27, 27, 29, 0.338) 0px 7px 29px 0px;
     width: 269px;
     height: 249px;
-    /* border: 1px solid black; */
     padding: 10px;
     margin: 15px;
     border-radius: 30px;
@@ -124,6 +123,7 @@ h6{
     text-align: center;
     color: beige;
 }
+/************************************************************************/
 #container {
     width: 95%;
     margin: auto;
@@ -211,8 +211,8 @@ body{
     font-family: Sans-serif;
     font-size: 14px;
 }
+/************* Navbar **************************/
 #main_navbar{
-    /* border: 2px solid white; */
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -226,8 +226,7 @@ body{
     text-align: center;
     justify-content: center;
     margin-left: 250px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 #btn_div>button{
     color: aliceblue;
@@ -309,3 +308,38 @@ a{
 #num{
   color: red;
 }
+#myBtn {
+    /* display: none;Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */   
+  }
+  #myBtn:hover {
+    background-color: rgb(248, 242, 242); /* Add a dark-grey background on hover */
+  }
+  /* =============================================================================== */
+  #nav_div_{
+    display: flex;
+  }
+  #text {
+    background-color: #2c2c2c;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #text>p {
+    font-size: 16px;
+    margin: auto;
+    color: #8F8F8F;
+    text-align: center;
+    width: 70%;
+  }

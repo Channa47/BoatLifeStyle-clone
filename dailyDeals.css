@@ -299,7 +299,6 @@ color: #8F8F8F;
     background-repeat: no-repeat;
     transition: background-size 400ms;
 }
-
   /* ------------------------------------------------ */
 a:hover,
 a:focus {
@@ -359,75 +358,7 @@ a{
 #num{
   color: red;
 }
-/* -------------------------------------------------------- */
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  margin-top: 10px;
-  /* border: 2px solid yellow; */
-}
-.slideshow-container:hover{
-    cursor: pointer;
-}
-
-
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
+/* /* -------------------------------------------------------- */ 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -443,38 +374,7 @@ a{
 .active, .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 /* --------------------------------------------------------------------------------- */
-#subdiv1{
-  display: felx;
-  /* border: 2px solid white; */
- 
-}
-#subdiv2{
-  display: felx;
-  /* border: 2px solid white; */
- 
-}
-#subdiv3{
-  display: felx;
-  /* border: 2px solid white; */
-  margin-left: 120px;
-}
-.p_img{
-  width: 240px;
-  margin-left: 30px;
-  margin-top: 10px;
-}
 #more_btn_img{
   background-image : url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/web-banner-shop-now_2_f29ea286-44e1-4022-aa8f-fcd2d3d0bc0c_2000x.jpg?v=1659763025")
 }
@@ -521,12 +421,10 @@ a{
   gap: 10px;
   margin-top: -10px;
 }
-
 .products{
   width:250px;
   margin-right: -20px;
-  /* border: 2px saddlebrown; */
-
+  border: 2px saddlebrown;
 }
 .head{
   color: aliceblue;
@@ -553,18 +451,6 @@ a{
   width: 250px;
   margin-left: 33px;
 }
-.video{
-  width: 200px;
-}
-#gif{
-  margin-left: 30px;
-  display: flex;
-  gap: 10px;
-  margin-top: 50px;
-}
-.bhoooooom{
-  border: 2px white;
-}
 /* ================================================== */
 /*  */
 #myBtn {
@@ -590,4 +476,17 @@ a{
 /* =============================================================================== */
 #nav_div_{
   display: flex;
+}
+#text {
+  background-color: #2c2c2c;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+#text>p {
+  font-size: 16px;
+  margin: auto;
+  color: #8F8F8F;
+  text-align: center;
+  width: 70%;
 }
