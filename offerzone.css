@@ -82,6 +82,7 @@ input+button{
     width: 250px;
     margin-top: 20px;
     margin-left: 75px;
+    cursor: pointer;
 }
 .social_logo{
     display: flex;
@@ -97,6 +98,7 @@ input+button{
     margin-left: 20px;
     justify-content: space-around;
     display: flex;
+    cursor: pointer;
 }
 #cards{
     height: 80%;
@@ -136,7 +138,7 @@ h6{
     border-radius: 20px;
 }
 #outer_div{
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     text-align: center;
     border-radius: 20px;
     background-color: #e3e3e3;
@@ -146,6 +148,11 @@ h6{
 #outer_div>img {
     width: 240px;
     height: 210px;
+}
+#outer_div>img:hover {
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
 }
 #inner_div {
     background-color: white;
@@ -342,4 +349,10 @@ a{
     color: #8F8F8F;
     text-align: center;
     width: 70%;
+  }
+  select {
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
   }

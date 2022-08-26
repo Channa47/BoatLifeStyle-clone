@@ -1,178 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Deals – boAt Lifestyle</title>
-    <link rel="stylesheet" href="./dailyDeals.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Deals – boAt Lifestyle</title>
+  <link rel="stylesheet" href="./dailyDeals.css">
 </head>
 <body>
-     <!-- Cancel out noise with Airdopes  131.   -->
-    <div class="announcment">
-        <a href="./Airdopes.html">
-        <div class="inner_announcment">
-        <b>All your favourite boAt products at heavy bargains. <span class="underline">Shop  NOW!</span></b>
-        </div>
-        </a>
-    </div>
-   <!-- announcment part done here -->
+   <!-- Cancel out noise with Airdopes  131.   -->
+  <div class="announcment"><a href="./Airdopes.html">
+    <div class="inner_announcment"><b>All your favourite boAt products at heavy bargains.
+    <span class="underline">Shop  NOW!</span></b>
+    </div></a>
+  </div>
+
   <!-- Navbar Part -->
    <div id="main_navbar"></div>
 
-<div id="countdown">
-   <!-- Display the countdown timer in an element -->
-   <p id="demo" style="color: black"></p>
-</div>
+  <div id="countdown">
+    <!-- Display the countdown timer in an element -->
+    <p id="demo" style="color: black"></p>
+  </div>
 
-<div id="mid_part">
-  <h4 id="filter">Show Filters</h4>
-  <select name="" id="sorting">
-    <option value="">Featured</option>
-    <option value="">Best selling</option>
-    <option value="">Alphabetically, A-Z</option>
-    <option value="">Alphabetically, Z-A </option>
-    <option value="" onclick="Sortlh()">Price, low to high</option>
-    <option value="" onclick="Sorthl()">Price, high to low</option>
-    <option value="">Date, old to new</option>
-    <option value="">Date, new to old</option>
-  </select>
-</div>
-
-<div id="container">
-  <div id="main_div">
-  <div id="outer_div">
-    <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0893f345-8dbf-4b30-a3fd-8f717bb34d93_400x.png?v=1625045856" alt="">
-    <div id="inner_div">
-      <h4 id="title">boAt Rockerz 510</h4>
-      <p>4.8 | 133 reviews</p>
-      <h3 id="price">1099</h3>
-      <h4 id="discount">You Save: Rs.2391(69%)</h4>
-      <button class="add_cart">ADD TO CART</button>
-      <p>67% sold</p>
-    </div> 
+  <div id="mid_part">
+    <h4 id="filter">Show Filters</h4>
+    <select name="" id="sorting">
+      <option value="">Featured</option>
+      <option value="">Best selling</option>
+      <option value="">Alphabetically, A-Z</option>
+      <option value="">Alphabetically, Z-A </option>
+      <option value="" onclick="Sortlh()">Price, low to high</option>
+      <option value="" onclick="Sorthl()">Price, high to low</option>
+      <option value="">Date, old to new</option>
+      <option value="">Date, new to old</option>
+    </select>
   </div>
-  <div id="outer_div">
-    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Main1_38d12adf-3a49-46be-9a91-3c9f75431353_400x.png?v=16541950936" alt="">
-    <div id="inner_div">
-      <h4>boAt Rockerz 260</h4>
-      <p>4.8 |  71 reviews</p>
-      <h3>1199</h3>
-      <h4>You Save: Rs.1300(52%)</h4>
-      <button class="add_cart">ADD TO CART</button>
-      <p>74% sold</p>
-    </div> 
-  </div>
-  <div id="outer_div">
-    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img_1_400x.png?v=1615965629" alt="">
-    <div id="inner_div">
-      <h4>boAt Rockerz 450 - Masaba..</h4>
-      <p>4.7 | 13 reviews</p>
-      <h3>1199</h3>
-      <h4>You Save: Rs.2791(70%)</h4>
-      <button class="add_cart">ADD TO CART</button>
-      <p>58% sold</p>
-    </div> 
-  </div>
-  <div id="outer_div">
-    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/d9ed8fdf-3569-4dce-a521-9d88e5c238cc_400x.png?v=1625046507" alt="">
-    <div id="inner_div">
-      <h4>boAt Rockerz 255</h4>
-      <p>4.8 | 24 reviews</p>
-      <h3>  999</h3>
-      <h4>You Save: Rs.1991(67%)</h4>
-      <button class="add_cart">ADD TO CART</button>
-      <p>66% sold</p>
-    </div> 
-  </div>
-  </div>
-  <div id="main_div">
+  <!-- Main Div Part -->
+  <div id="container">
+    <div id="main_div">
     <div id="outer_div">
-      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a94ee4f6-571a-4b6d-afed-6656650f48f9_400x.png?v=1625046509" alt="">
+      <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0893f345-8dbf-4b30-a3fd-8f717bb34d93_400x.png?v=1625045856" alt="">
       <div id="inner_div">
-        <h4>boAt Rockerz 510</h4>
+        <h4 id="title">boAt Rockerz 510</h4>
         <p>4.8 | 133 reviews</p>
-        <h3>1900</h3>
-        <h4>You Save: Rs.2391(69%)</h4>
+        <h3 id="price">1099</h3>
+        <h4 id="discount">You Save: Rs.2391(69%)</h4>
         <button class="add_cart">ADD TO CART</button>
         <p>67% sold</p>
       </div> 
     </div>
     <div id="outer_div">
-      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a94ee4f6-571a-4b6d-afed-6656650f48f9_400x.png?v=1625046509" alt="">
+      <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Main1_38d12adf-3a49-46be-9a91-3c9f75431353_400x.png?v=16541950936" alt="">
       <div id="inner_div">
-        <h4>boAt Rockerz 255 KKR edition</h4>
-        <p>4.8 | 133 reviews</p>
-        <h3>999</h3>
-        <h4>You Save: Rs.1991(67%)</h4>
+        <h4 id="title">boAt Rockerz 260</h4>
+        <p>4.8 |  71 reviews</p>
+        <h3 id="price">1199</h3>
+        <h4 id="discount">You Save: Rs.1300(52%)</h4>
         <button class="add_cart">ADD TO CART</button>
-        <p>67% sold</p>
+        <p>74% sold</p>
       </div> 
     </div>
     <div id="outer_div">
-      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-2_51378687-9424-4f70-9eef-9d627bc90746_400x.png?v=1655788494" alt="">
+      <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img_1_400x.png?v=1615965629" alt="">
       <div id="inner_div">
-        <h4>boAt Airdopes 101 Made In India</h4>
-        <p>4.8 | 133 reviews</p>
-        <h3>1099</h3>
-        <h4>You Save: Rs.1891(63%)</h4>
+        <h4 id="title">boAt Rockerz 450 - Masaba..</h4>
+        <p>4.7 | 13 reviews</p>
+        <h3 id="price">1199</h3>
+        <h4 id="discount">You Save: Rs.2791(70%)</h4>
         <button class="add_cart">ADD TO CART</button>
-        <p>67% sold</p>
+        <p>58% sold</p>
       </div> 
     </div>
     <div id="outer_div">
-      <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_7aa8c6c2-054b-42d5-a701-1e0ac33549c1_400x.png?v=1645014290" alt="">
+      <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/d9ed8fdf-3569-4dce-a521-9d88e5c238cc_400x.png?v=1625046507" alt="">
       <div id="inner_div">
-        <h4>boAt Airdopes 441 Sunburn...</h4>
-        <p>5.0 | 1 reviews</p>
-        <h3>1799</h3>
-        <h4>You Save: Rs.4200(70%)</h4>
+        <h4 id="title">boAt Rockerz 255</h4>
+        <p>4.8 | 24 reviews</p>
+        <h3 id="price">  999</h3>
+        <h4 id="discount">You Save: Rs.1991(67%)</h4>
         <button class="add_cart">ADD TO CART</button>
-        <p>67% sold</p>
+        <p>66% sold</p>
       </div> 
     </div>
     </div>
     <div id="main_div">
       <div id="outer_div">
-        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1200f_main2_400x.png?v=1632893558" alt="">
+        <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a94ee4f6-571a-4b6d-afed-6656650f48f9_400x.png?v=1625046509" alt="">
         <div id="inner_div">
-          <h4>boAt Stone 1200 F</h4>
+          <h4 id="title">boAt Rockerz 510</h4>
           <p>4.8 | 133 reviews</p>
-          <h3>3799</h3>
-          <h4>You Save: Rs.3191(46%)</h4>
+          <h3 id="price">1900</h3>
+          <h4 id="discount">You Save: Rs.2391(69%)</h4>
           <button class="add_cart">ADD TO CART</button>
           <p>67% sold</p>
         </div> 
       </div>
       <div id="outer_div">
-        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569" alt="">
+        <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/a94ee4f6-571a-4b6d-afed-6656650f48f9_400x.png?v=1625046509" alt="">
         <div id="inner_div">
-          <h4>boAt Airdopes 131 - Wireless...</h4>
+          <h4 id="title">boAt Rockerz 255 KKR edition</h4>
           <p>4.8 | 133 reviews</p>
-          <h3>1099</h3>
-          <h4>You Save: Rs.1891(63%)</h4>
+          <h3 id="price">999</h3>
+          <h4 id="discount">You Save: Rs.1991(67%)</h4>
           <button class="add_cart">ADD TO CART</button>
           <p>67% sold</p>
         </div> 
       </div>
       <div id="outer_div">
-        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/IM1300_main_4_400x.png?v=1632715015" alt="">
+        <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-2_51378687-9424-4f70-9eef-9d627bc90746_400x.png?v=1655788494" alt="">
         <div id="inner_div">
-          <h4>boAt Immortal 1300</h4>
+          <h4 id="title">boAt Airdopes 101 Made In India</h4>
           <p>4.8 | 133 reviews</p>
-          <h3>2999</h3>
-          <h4>You Save: Rs.6991(70%)</h4>
+          <h3 id="price">1099</h3>
+          <h4 id="discount">You Save: Rs.1891(63%)</h4>
           <button class="add_cart">ADD TO CART</button>
           <p>67% sold</p>
         </div> 
       </div>
       <div id="outer_div">
-        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_affc1a7f-f714-4952-9c58-3de269539350_400x.png?v=1645099233" alt="">
+        <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_7aa8c6c2-054b-42d5-a701-1e0ac33549c1_400x.png?v=1645014290" alt="">
         <div id="inner_div">
-          <h4>boAt Aavante Bar 1750</h4>
-          <p>4.8 | 133 reviews</p>
-          <h3>7999</h3>
-          <h4>You Save: Rs.11991(60%)</h4>
+          <h4 id="title">boAt Airdopes 441 Sunburn...</h4>
+          <p>5.0 | 1 reviews</p>
+          <h3 id="price">1799</h3>
+          <h4 id="discount">You Save: Rs.4200(70%)</h4>
           <button class="add_cart">ADD TO CART</button>
           <p>67% sold</p>
         </div> 
@@ -180,71 +132,117 @@
       </div>
       <div id="main_div">
         <div id="outer_div">
-          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_1_796f426d-e05c-4093-a95e-63b99f5a7805_400x.png?v=1634209698" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1200f_main2_400x.png?v=1632893558" alt="">
           <div id="inner_div">
-            <h4>boAt LTG 800 Cable</h4>
+            <h4 id="title">boAt Stone 1200 F</h4>
             <p>4.8 | 133 reviews</p>
-            <h3>899</h3>
-            <h4>You Save: Rs.600(40%)</h4>
+            <h3 id="price">3799</h3>
+            <h4 id="discount">You Save: Rs.3191(46%)</h4>
             <button class="add_cart">ADD TO CART</button>
             <p>67% sold</p>
           </div> 
         </div>
         <div id="outer_div">
-          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/AB1400-RPD-FK_02_400x.png?v=1659076750" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569" alt="">
           <div id="inner_div">
-            <h4>boAt Aavante Bar 1400</h4>
+            <h4>boAt Airdopes 131 - Wireless...</h4>
             <p>4.8 | 133 reviews</p>
-            <h3>14999</h3>
-            <h4>You Save: Rs.3391(68%)</h4>
+            <h3 id="price">1099</h3>
+            <h4 id="discount">You Save: Rs.1891(63%)</h4>
             <button class="add_cart">ADD TO CART</button>
             <p>67% sold</p>
           </div> 
         </div>
         <div id="outer_div">
-          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-bl_400x.png?v=1625748090" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/IM1300_main_4_400x.png?v=1632715015" alt="">
           <div id="inner_div">
-            <h4>boAt Immortal 200</h4>
+            <h4>boAt Immortal 1300</h4>
             <p>4.8 | 133 reviews</p>
-            <h3>1599</h3>
-            <h4>You Save: Rs.3391(68%)</h4>
+            <h3 id="price">2999</h3>
+            <h4>You Save: Rs.6991(70%)</h4>
             <button class="add_cart">ADD TO CART</button>
             <p>67% sold</p>
           </div> 
         </div>
         <div id="outer_div">
-          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-1_400x.png?v=1615964199" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_affc1a7f-f714-4952-9c58-3de269539350_400x.png?v=1645099233" alt="">
           <div id="inner_div">
-            <h4>"boAt Airdopes 441-Masaba...</h4>
+            <h4>boAt Aavante Bar 1750</h4>
             <p>4.8 | 133 reviews</p>
-            <h3>1999</h3>
-            <h4>You Save: Rs.4000(67%)</h4>
+            <h3 id="price">7999</h3>
+            <h4>You Save: Rs.11991(60%)</h4>
             <button class="add_cart">ADD TO CART</button>
             <p>67% sold</p>
           </div> 
         </div>
         </div>
+        <div id="main_div">
+          <div id="outer_div">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_1_796f426d-e05c-4093-a95e-63b99f5a7805_400x.png?v=1634209698" alt="">
+            <div id="inner_div">
+              <h4>boAt LTG 800 Cable</h4>
+              <p>4.8 | 133 reviews</p>
+              <h3 id="price">899</h3>
+              <h4>You Save: Rs.600(40%)</h4>
+              <button class="add_cart">ADD TO CART</button>
+              <p>67% sold</p>
+            </div> 
+          </div>
+          <div id="outer_div">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/AB1400-RPD-FK_02_400x.png?v=1659076750" alt="">
+            <div id="inner_div">
+              <h4>boAt Aavante Bar 1400</h4>
+              <p>4.8 | 133 reviews</p>
+              <h3 id="price">14999</h3>
+              <h4>You Save: Rs.3391(68%)</h4>
+              <button class="add_cart">ADD TO CART</button>
+              <p>67% sold</p>
+            </div> 
+          </div>
+          <div id="outer_div">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-bl_400x.png?v=1625748090" alt="">
+            <div id="inner_div">
+              <h4>boAt Immortal 200</h4>
+              <p>4.8 | 133 reviews</p>
+              <h3 id="price">1599</h3>
+              <h4>You Save: Rs.3391(68%)</h4>
+              <button class="add_cart">ADD TO CART</button>
+              <p>67% sold</p>
+            </div> 
+          </div>
+          <div id="outer_div">
+            <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-1_400x.png?v=1615964199" alt="">
+            <div id="inner_div">
+              <h4>"boAt Airdopes 441-Masaba...</h4>
+              <p>4.8 | 133 reviews</p>
+              <h3 id="price">1999</h3>
+              <h4>You Save: Rs.4000(67%)</h4>
+              <button class="add_cart">ADD TO CART</button>
+              <p>67% sold</p>
+            </div> 
+          </div>
+          </div>
 
-</div>
+  </div>
 
-<!-- ************  Footer Section*************************** -->
-<div id="text">
- <p> India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones,smart watches, and home audio. From workouts to 
-adventures,boAt will get you sailing!</p>
-</div>
+  <!-- ************  Footer Section*************************** -->
+  <div id="text">
+    <p> India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones,smart watches, and home audio. From workouts to 
+    adventures,boAt will get you sailing!</p>
+  </div>
 
-<!-- Import footer part from footer.js and append it here -->
-<div id="footer_part"></div>
+  <!-- Import footer part from footer.js and append it here -->
+  <div id="footer_part"></div>
 </body>
 </html> 
 
 
 <script type="module">
-    import {footer} from "./footer.js"
-    document.getElementById("footer_part").innerHTML = footer();
-    import main_navbar from "./components.js";
-let container = document.getElementById("main_navbar");
-let navbar = main_navbar();
-container.innerHTML = navbar;
+  import {footer} from "./footer.js"
+  document.getElementById("footer_part").innerHTML = footer();
+  import main_navbar from "./components.js";
+  let container = document.getElementById("main_navbar");
+  let navbar = main_navbar();
+  container.innerHTML = navbar;
 </script>
 <script src="./dailyDeals.js"></script>
