@@ -360,3 +360,10 @@ a{
 #nav_div_{
   display: flex;
 }
+#foot_img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#foot_imggg{
+  width: 100%;
+}

@@ -1,4 +1,7 @@
 import main_navbar from "./components.js";
+import {footer} from "./footer.js"
+let foot = document.getElementById("footer");
+foot.innerHTML = footer();
 let container = document.getElementById("main_navbar");
 document.getElementById("red_navbar").addEventListener("click",function(){
   window.location.reload();
