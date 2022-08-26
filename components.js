@@ -15,9 +15,9 @@ let main_navbar = ()=>{
         <input type="text" placeholder="&#x1F50E; Search..." id="input">
     </div>
     <div id="l_g_c_btns">
-        <button><a href="">&#128100;</a></button>
-        <button><a href=""></a>&#127873;</button>
-        <button><a href=""></a>&#128722;</button>
+        <button ><a href="./Sign_in.html"><img id="l_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048" alt=""></a></button>
+        <button><a href=""><img id="g_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt=""></a></button>
+        <button><a href=""><div id="nav_div_"><img id="c_img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047" alt=""><p id="num">0</p></div></button>
     </div>`
 }
 
