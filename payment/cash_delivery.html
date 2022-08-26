@@ -3,13 +3,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/cart.css">
+    <title>Cash On Delivery</title>
+    <link rel="stylesheet" href="./style/cash.css">
+    <link rel="stylesheet" href="./style/opt.css">
 </head>
 <body>
     
     <div id="top">
-        <p>Track it all with 700+ Active Modes.🏃‍♂️ Grab your boAt Xtend Sport @ ₹2499</p>
+        <p>All your favourite boAt products at heavy bargains. Shop NOW!</p>
     </div>
     <div id="navbar">
            <div>
@@ -40,32 +41,26 @@
             <div><input id="search" type="text" placeholder="search"></div>
             <div> <a href="Login.html"> <img  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon4.png?v=1655206048" alt=""></a></div>
             <div><a href="Gift.html"> <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/gift.png?v=1606314809" alt=""></a></div>
-            <div><a href="Cart.html"> <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047" alt=""></a></div>
+            <div><a href="payment.html"> <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/navigation-Icon-3.png?v=1655206047" alt=""></a></div>
            </div>
     </div>
-    <h1 id="h1">Cart</h1>
+    <h1 id="h1">Cash  On Delivery Page</h1>
     <hr>
-    <div id="line">
-       <div>Product</div>
-       <div>Quantity</div>
-       <div>Total</div>
-    </div>   
-    <div id="box">
-           <div id="vary">
-             </div>
-           <div id="fix">
-                 <div>
-                    <div>
-                        <div>Total</div>
-                        <div id="Totalpriceof">Rs. </div>
-                    </div>
-                    <p>Shiping & taxes calculated at checkout</p>
-                  <a href="./cash_delivery.html"> <button>cash on delivery/upi</button></a>
-                    <a href="./payment.html"><button>pay via card</button></a>
-                    
-                 </div>
-           </div> 
+    <!-- ****************************************************************** -->
+    
+    <div id="nav">
+        <input type="text" placeholder="enter mobile number" id="mobile">
+        <br> <br>
+        <input type="text" placeholder="enter name" id="name">
+        <br> <br>
+        <input type="text" placeholder="enter area" id="area">
+        <br> <br>
+        <input type="text" placeholder="enter pin code" id="pin">
+        <br> <br>
+        <input type="text" placeholder="locality road" id="road">
+        <br> <br>
+        <button  onclick="getdata()" id="cash" >submit</button>
     </div>
 </body>
 </html>
-<script src="./script/cart.js"></script>
+<script src="./script/cash.js"></script>

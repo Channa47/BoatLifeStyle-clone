@@ -1,9 +1,9 @@
 let user_details=JSON.parse(localStorage.getItem("user_details"));
 
-let card_number="1234123412341234";
+let card_number="123451234512345";
 let cvv="123"
 if(card_number==user_details[0].card_number || cvv==user_details[0].cvv){
-    // alert("Please enter OTP: 1234 to confirm your order");
+    alert("Please enter your OTP: 1234 to confirm your order");
 }else{
     alert("Details are invalid. Please check again");
     window.location.href="payment.html";
