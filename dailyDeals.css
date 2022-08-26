@@ -16,236 +16,6 @@
   }
  
   /***************************footer part***************************************************/
-  body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-  }
-#login{
-  cursor: pointer;
-  width: 199px;
-  height: 22px;
-background-color: #ea2127;
-  color: white;
-  margin-left: 10px;
-  padding-top: 9px;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  }
-#dailyDeal {
-  cursor: pointer;
-  display: grid;
-  grid-template-columns: 443px 443px 443px;
-  grid-template-rows: 100% 100% 100%;
-  grid-column-gap: 10px;
-  width: 90%;
-  height: 487px;
-  margin: auto;
-  /* border: 1px solid red; */
-  margin-top: -30px;
-  color: white;
-  }
-  button {
-  font-family: Montserrat, sans-serif;
-  cursor: pointer;
-  background-color: black;
-  line-height:normal;
-  vertical-align:baseline;
-  letter-spacing:normal;
-  word-spacing:0px;
-  color: white;
-  border-radius: 50px;
-  width: 120px;
-  height: 37px;
-  margin-left: 15px;
-  margin-top: 10px;
-  border: none;
-  padding:11px 25px;
-  font-size: 13.8px;
-  font-weight: 500;
-  background-color: red;
-  }
-#boatImg{
-  width: 100px;
-  height: 45px;
-  margin-top: 40px;
-  margin-left: 10px;
-  }
-#boatImg:hover{
-  cursor: pointer;
-  opacity: 0.7;
-  }
-#footer{
-  display: flex;
-  }
-#leftDiv>p{
-color: #969696;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 400; 
-  margin-top: 30px;
-  }
-#inputAndBtn{
-  display: flex;
-  padding: 10px;
-  border: 1px solid white;
-  height: 35px;
-  }
-#inputAndBtn input{
-  background-color: black;
-  color: whitesmoke; 
-  padding-right: 8px;
-  padding-left: 12px;
-  width: 200px;     
-  border-radius: 5px;
-  font-size: 13.33px;
-  font-weight: 400;
-  font-family: Arial;
-  }
-#inputAndBtn button{
-  cursor: pointer;
-  color: white;
-  border: 1.5px solid red;
-  padding: 8px 12px 8px 12px;
-  border-radius: 5px;
-  width: 130px;
-  height: 35px;
-  margin-left: 3px;
-  margin-top: 0px;
-  }
-#inputAndBtn button:hover{
-  background-color: red;
-  }
-#leftDiv{
-  width: 360px;
-  height: 550px;
-  margin-left: 160px; 
-  }
-#rightDiv{
-  display: flex;
-  width: 800px;
-  height: 550px;
-  margin-left: 40px;
-  font-size: large;
-  }
-#shopHelpComp{
-  display: flex;
-  }
-#shopfoot{
-  width: 190px;
-  height: 350px;
-  /* border: 1px solid blue; */
-  margin-top: 40px;
-  font-size: larger;
-  }
-#shopfoot>ul>li{
-  cursor: pointer;
-  }
-#help{
-  width: 190px;
-  height: 350px;
-  /* border: 1px solid blue; */
-  margin-top: 40px;
-  margin-left: 60px;
-  font-size: 18px;
-  }
-#help>ul>li{
-  cursor: pointer;
-  }
-#company{
-  width: 190px;
-  height: 350px;
-  /* border: 1px solid blue; */
-  margin-top: 40px;
-  margin-left: 60px;
-  font-size: larger;
-  }
-#company>ul>li{
-  cursor: pointer;
-  }
-#shopfoot>p,#help>p,#company>p{
-  font-size: 17px;
-  font-family: sans-serif;
-  font-weight: 600;
-  color: white;  
-  margin-top: 0px;
-  }
-#shopfoot>ul>li,#help>ul>li,#company>ul>li{
-color: #969696;
-  font-size: 14px;
-  font-family: sans-serif;
-  font-weight: 400;
-  line-height: 26px;
-  margin-left: -38px;
-  }
-#shopfoot>ul>li:nth-child(1),#help>ul>li:nth-child(1),#company>ul>li:nth-child(1){
-  margin-top: -7px;
-  }
-#SocialIcons{
-  display: flex;
-  margin-top: 230px;
-  }
-#twit{
-  width: 28px;
-  height: 28px;
-  margin-top: 5px;
-  }
-#fac{
-  width: 38px;
-  height: 38px;
-  }
-#yout{
-  width: 37px;
-  height: 37px;
-  }
-#insta{
-  width: 32px;
-  height: 32px;
-  margin-top: 3px;
-  }
-#linkdin{
-  width: 23px;
-  height: 23px;
-  margin-top: 7px;
-  }
-#Foot_cards{
-  width: 360px;
-  height: 60px;
-  margin-top: 20px;
-  }
-#fstore{
-  display: flex;
-  width: 600px;
-  height: 50px;
-  /* border: 1px solid red; */
-  margin-left: 680px;
-  margin-top: -56px;
-  }
-#fstore>p{
-  color: white;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  margin-right: 28px;
-  }
-#gstore{
-  margin-right: 10px;
-  cursor: pointer;
-  }
-#astore {
-  cursor: pointer;
-  }
-#copyRight{
-  font-family: sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  text-align: center;
-  color: whitesmoke;
-  }
-
-  /***********************************************************************************/
 #container {
   width: 95%;
   margin: auto;
@@ -327,6 +97,7 @@ background-color: #f6c00b;
 #sorting>option {
   padding: 10px;
   }
+  /*****************************************************************************/
 #countdown {
 background-color: #f6c00b;
   width: 20%;
@@ -373,8 +144,6 @@ background-color: #f6c00b;
   margin-bottom: -30px;
   margin-left: 30px;
   }        
-
-  /********footer*******************/
 
   /****************Navbar**********/
 #big{
@@ -459,7 +228,6 @@ color: #8F8F8F;
   height: 80%;
   margin-top: 7px;
   width: 30%;
-  /* border: 1px solid red; */
   }
 #cards>img{
   width: 100%;
@@ -470,7 +238,6 @@ color: #8F8F8F;
   height: 80%;
   margin-top: 7px;
   width: 45%;
-  /* border: 1px solid red; */
   display: flex;
   margin-left: 50px;
   }
@@ -485,34 +252,18 @@ color: #8F8F8F;
   body{
     background-color: black;
 }
-/* #red_navbar{
-    width: 100%;
-  
-    border: 2px red;
-    
-} */
 #red_navbar{
     border: 2px solid red;
     height: 26px;
-    /* width: 100%; */
     background-color: red;
     margin: 0px;
     margin-top: -8px;
-    /* margin-left: -10px; */
-    /* position: absolute; */
     text-align: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
-#red_navbar>p{
-    font-style: monsterrant;
-    color: aliceblue;
-    margin-top: 6px;
-    font-family: Sans-serif;
-    font-size: 14px;
-}
+
+/******************Navbar***************************************/
 #main_navbar{
-    /* border: 2px solid white; */
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -526,8 +277,7 @@ color: #8F8F8F;
     text-align: center;
     justify-content: center;
     margin-left: 250px;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 #btn_div>button{
     color: aliceblue;
@@ -744,14 +494,11 @@ a{
   /* border: 2px solid yellow; */
   margin-left: 50px;
   border-radius: 20px;
-  background-color: azure; 
-  
+  background-color: azure;  
 }
 .p_div{
   margin-right: 10px;
-  border: red;
- 
-  
+  border: red;  
 }
 .add_to_cart_btn{
   background-color: rgb(215, 215, 27);
