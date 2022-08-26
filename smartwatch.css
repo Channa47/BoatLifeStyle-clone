@@ -1,0 +1,330 @@
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color:black;
+}
+
+#largeimage {
+    height: 500PX;
+    background-image: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Smart-Watch_Catgry-web.jpg?v=1634717240");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#largeimage>p {
+    color: white;
+
+    margin-left: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#filter {
+    color: white;
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+#filter>div {
+    display: flex;
+
+
+    align-items: center;
+}
+
+#filter>div>p {
+    margin-left: 5px;
+}
+
+#filter>div>img {
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#filter2>p {
+    margin-right: 5px;
+    color: rgb(126, 124, 124);
+}
+
+#filter2>select {
+    background-color: rgb(37, 37, 37);
+    outline: none;
+    color: white;
+    border: none;
+}
+
+#filter2>select>option {
+    background-color: none;
+    outline: none;
+    border: none;
+}
+
+#toggle {
+    /* position:fixed; */
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #fff;
+    transform: translateY(0px) rotate(45 deg);
+    transition: 0.2s;
+}
+
+#toggle::after {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background: #fff;
+    transform: translateY(5px) rotate(-45 deg);
+    transition: 0.2s;
+}
+
+/* #toggle.active::before{
+    transform:translate(0px) rotate(-45 deg)
+}
+#toggle.active::after{
+    transform:translate(0px) rotate(45deg);
+} */
+#sidebar {
+    position: fixed;
+    top:0;
+    left: -401px;
+    width: 400px;
+    height: 600px;
+    justify-content: space-between;
+
+    background-color: rgb(37, 37, 37);
+}
+#sidebar.active{
+    left: 0px;
+}
+
+#red {
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#red>p {
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#red>p :hover {
+    background: rgb(250, 85, 85);
+    ;
+}
+
+#red>img {
+    width: 40px;
+    height: 40px;
+
+
+}
+
+#avilablity {
+    color: white;
+    margin: 10px;
+}
+
+#avilablity>ul {
+    position: relative;
+    margin-top: 50px;
+}
+
+#avilablity>ul>dt {
+
+    padding: 10px 30px;
+
+}
+
+#avilablity>ul>li :hover {
+    background: rgb(250, 85, 85);
+}
+
+#avilablity>ul>li>a {
+
+    text-decoration: none;
+    color: white;
+}
+
+#hr1 {
+    width: 350px;
+    outline: none;
+    height: px;
+    border: 1px solid aqua;
+    color: aqua;
+}
+
+#price {
+    color: white;
+    margin: 10px;
+}
+
+#price>ul {
+    position: relative;
+    margin-top: 50px;
+}
+
+#price>ul>dt {
+
+    padding: 10px 30px;
+
+}
+
+#price>ul>li :hover {
+    background: rgb(250, 85, 85);
+}
+
+#secondiv {
+
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: red;
+    margin: auto;
+    border: 1px solid red;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#secondiv>h3 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#products_data{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#products_data>div{
+    width: 300px;
+    margin: auto;
+    border: 1px solid rgb(227, 227, 227);
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(227, 227, 227);
+}
+
+#products_data>div>div>img{
+width: 220px;
+height: 220px;
+margin: auto;
+margin-left: 15%;
+}
+#labeldiv{
+    background-color: yellow;
+    width: 100px;
+    margin-top: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#subdiv2{
+    background-color: #fff;
+    width: 270px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 8px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+}
+#subdiv2>p{
+    margin-top: 10px;
+}
+#addtocart{
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    border: none;
+    color:white;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+#addtocart:hover{
+    background-color: black;
+}
+
+#offer{
+    text-decoration-line: line-through; 
+}
+#krushna{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#krushna2{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+#lowerpart{
+    width: 80%;
+    color: white;
+    margin: auto;   
+    margin-top: 70px;
+}
+#lowerpart>p{
+    text-align: justify;
+    margin-top: 30px;
+}
+#lastbar{
+    color: rgb(179, 181, 184);
+    margin-top: 60px;
+    height: 100px;
+    align-items: center;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
+}
+#lastbar>p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
