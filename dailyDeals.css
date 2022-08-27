@@ -38,6 +38,11 @@ background-color: #e3e3e3;
   width: 240px;
   height: 210px;
   }
+  #outer_div>img:hover {
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+}
 #inner_div {
   background-color: white;
   border-radius: 15px;
@@ -61,15 +66,25 @@ background-color: #e3e3e3;
 #inner_div>button {
 background-color: #f6c00b;
   width: 92%;
-  margin-top: -15px;
+  margin-top: -5px;
   text-align: center;
   margin: auto;
   border-radius: 5px;
   font-size: 18px;
+  cursor: pointer;
   }
-#button+p {
+  #inner_div>button:hover {
+    width: 200px;
+    text-decoration: underline;
+  }
+#inner_div>p:last-child {
   margin-top: 0px;
-background-color: #f6c00b;
+  background-color: #f6c00b;
+  cursor: pointer;
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 10px;
   }
 #sorting {
   padding: 3px;
@@ -145,122 +160,7 @@ background-color: #f6c00b;
   margin-left: 30px;
   }        
 
-  /****************Navbar**********/
-#big{
-  width: 95%;
-  margin-left: 30px;
-  height: 400px;
-  display: flex;
-  margin-top: 10px;
-  /* border: 1px solid rgb(4, 100, 17); */
-  }
-#pc{
-  margin-left: 10px;
-  }
-#one{
-  height: 500px;
-  width: 35%;
-  /* border: 1px solid yellow; */
-color: #8F8F8F;
-  }
-#one>p{
-  font-size: 14px;
-  margin-left: 10px;
-  }
-#type{
-  height: 35px;
-  width: 400px;
-  margin-top: 50px;
-  }
-#type>input{
-  border-radius: 10px;
-  height: 35px;
-  background-color: black;
-  color: white;
-  margin-top: 10px;
-  width: 200px;
-  }
-  input+button{
-  height: 36px;
-  width: 140px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: black;
-  color: white;
-  border: 2px solid red;
-  }
-  button:hover{
-  background-color: red;      
-  }
-  .two{
-  height: 500px;
-  width: 20%;
-  margin-left: 30px;
-  font-size: 15px;
-color: #8F8F8F;
-  }
-  h3{
-  color: white;      
-  }
-#social{
-  height: 40px;
-  width: 250px;
-  margin-top: 20px;
-  margin-left: 75px;
-  }
-  .social_logo{
-  display: flex;
-  font-size: 30px;
-  color: white;
-  justify-content: space-between;
-  cursor: pointer;
-  }
-#bottom{
-  width: 90%;
-  height: 80px;
-  margin-top: 10px;
-  margin-left: 20px;
-  justify-content: space-around;
-  display: flex;
-  }
-#cards{
-  height: 80%;
-  margin-top: 7px;
-  width: 30%;
-  }
-#cards>img{
-  width: 100%;
-  height: 100%;
-  margin-top: -6px;
-  }
-#payment{
-  height: 80%;
-  margin-top: 7px;
-  width: 45%;
-  display: flex;
-  margin-left: 50px;
-  }
-#payment>img{
-  margin-left: 30px;
-  width: 20%;
-  }
-  h6{
-  text-align: center;
-  color: beige;
-  }
-  body{
-    background-color: black;
-}
-#red_navbar{
-    border: 2px solid red;
-    height: 26px;
-    background-color: red;
-    margin: 0px;
-    margin-top: -8px;
-    text-align: center;
-    justify-content: center;    
-}
+  /****************Footer Part**********/
 
 /******************Navbar***************************************/
 #main_navbar{

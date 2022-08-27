@@ -1,5 +1,5 @@
 let offer1 = document.getElementById("offer1");
-// offer1.addEventListener("changed", Offer1);
+offer1.addEventListener("click", Offer1);
 
  function Offer1() {
     alert(`1.Flat 500 INR cashback on cart value of 2999 INR & above
