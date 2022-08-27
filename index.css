@@ -361,48 +361,7 @@ a{
 #nav_div_{
   display: flex;
 }
-#footer_part{
-  background-color: black;
-  margin-top: 50px;
-}
-.two>p{
-  color: aliceblue;
-}
-.two>h3{
-  color: aliceblue;
-}
-#big{
-  display: flex;
-  gap: 200px;
-}
-#footer_part>h3{
-  color: aliceblue;
-}
-#footer_part>p{
-  color: aliceblue;
-
-}
-#one>p{
-  color: aliceblue;
-}
-#type>button{
-  background-color: red;
-  color: antiquewhite;
-  width: 140px;
-  height: 36px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-#type>input{
-  width: 200px;
-  height: 36px;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-}
-#onwtwothree{
-  width: 100%;
-}
 
 /* ===============================footer===================================== */
+
 
