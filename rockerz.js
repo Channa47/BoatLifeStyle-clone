@@ -31,9 +31,9 @@ filter.onclick = function(){
 let product =[
     {
         label:"You save 57%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ed46e58c-9643-43e0-b350-9539d293aa51_400x.png?v=1625045114",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"TRebl boAt Headphone 131",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ed46e58c-9643-43e0-b350-9539d293aa51_400x.png?v=1625045114",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"TRebl boAt Headphone 131",
         rating:"4.6",
         reviews:"1112",
         price:1699,
@@ -42,9 +42,9 @@ let product =[
     },
     {
         label:"You save 60%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/245v2_main_4_400x.png?v=1655719698",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 411 ANC",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/245v2_main_4_400x.png?v=1655719698",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 411 ANC",
         rating:"4.8",
         reviews:"56",
         price:1999,
@@ -54,9 +54,9 @@ let product =[
 
       {
         label:"NEW",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/35ca6350-d6f3-4bc2-a742-01b2c88d80c4_200x.png?v=1625552657",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 121 PRO",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/35ca6350-d6f3-4bc2-a742-01b2c88d80c4_200x.png?v=1625552657",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 121 PRO",
         rating:"4.8",
         reviews:"565",
         price:1399,
@@ -65,9 +65,9 @@ let product =[
     },
     {
         label:"You save 73%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_15634ca0-9f81-4d11-b891-9a1496f709b1_300x.png?v=1641801688",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 402 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_15634ca0-9f81-4d11-b891-9a1496f709b1_300x.png?v=1641801688",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 402 - Wireless...",
         rating:"4.8",
         reviews:467,
         price:1599,
@@ -76,9 +76,9 @@ let product =[
     },
     {
         label:"You save 57%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/6b237ddc-f894-4dfd-a474-2435f93e6611_300x.png?v=1625046507",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 151 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/6b237ddc-f894-4dfd-a474-2435f93e6611_300x.png?v=1625046507",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 151 - Wireless...",
         rating:"4.9",
         reviews:"72",
         price:1299,
@@ -87,9 +87,9 @@ let product =[
     },
     {
         label:"TRENDING",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-R333_300x.png?v=1641801662",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 151 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e5881832-36f8-4c1c-a767-10f2c2a55a02_400x.png?v=1625046573",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 151 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1049,
@@ -99,9 +99,9 @@ let product =[
 
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/756866f0-25e4-4b5d-8b7c-546c2111da69_300x.png?v=1625045615",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 131 DC Edition",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/756866f0-25e4-4b5d-8b7c-546c2111da69_300x.png?v=1625045615",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 131 DC Edition",
         rating:"4.8",
         reviews:"1112",
         price:1440,
@@ -110,9 +110,9 @@ let product =[
     },
     {
         label:"You save 28%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_300x.png?v=1625046144",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 141 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0cfa4417-0213-4b49-b78e-0ae68aeb7057_300x.png?v=1625046144",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 141 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -121,9 +121,9 @@ let product =[
     },
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_300x.png?v=1659614550",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 131 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_300x.png?v=1659614550",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 131 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1299,
@@ -132,9 +132,9 @@ let product =[
     },
     {
         label:"You save 52%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/eb8e0fbd-c412-48b3-9c91-5b49ddf35800_300x.png?v=1625045744",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 131 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/eb8e0fbd-c412-48b3-9c91-5b49ddf35800_300x.png?v=1625045744",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 131 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -143,9 +143,9 @@ let product =[
     },
     {
         label:"You save 28%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/709d5346-3135-495f-ba7b-80fae784af83_300x.png?v=1625045493",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 101 .",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/709d5346-3135-495f-ba7b-80fae784af83_300x.png?v=1625045493",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 101 .",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -154,9 +154,9 @@ let product =[
     },
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3b9db779-1d2f-4d55-a264-788c1eaba5ec_300x.png?v=1625046595",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Headphone 111 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3b9db779-1d2f-4d55-a264-788c1eaba5ec_300x.png?v=1625046595",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Headphone 111 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -210,17 +210,17 @@ function append(product){
 
         labeldiv.append(label_text)
         let img1 = document.createElement("img")
-        img1.src=element.Image;
+        img1.src=element.img;
         let img2 = document.createElement("img")
-        img2.src = element.Image2
+        img2.src = element.img2
         subdiv1.append(labeldiv,img1)
 
 
 
         let subdiv2 = document.createElement("div")
         subdiv2.setAttribute("id","subdiv2")
-        let name = document.createElement("h3")
-        name.innerText = element.name;
+        let title = document.createElement("h4")
+        title.innerText = element.title;
         let rating = document.createElement("p")
         let offerprice = document.createElement("p")
         offerprice.innerText=`₹${element.discountprice}`
@@ -243,7 +243,7 @@ function append(product){
                 localStorage.setItem("cart_items", JSON.stringify(cartitom))
               })
 
-        subdiv2.append(name,rating, line,price,offerprice,save,button)
+        subdiv2.append(title,rating, line,price,offerprice,save,button)
         main_div.append(subdiv1,subdiv2)
         container.append(main_div)
       
