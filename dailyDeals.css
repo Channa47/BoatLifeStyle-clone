@@ -251,15 +251,11 @@ a{
 }
 #c_img{
   width: 30px;
-  margin-top: 20px;
-  /* margin-bottom: -px; */
- 
-}
+  margin-top: 20px;}
 #num{
   color: red;
 }
-/* /* -------------------------------------------------------- */ 
-/* The dots/bullets/indicators */
+/*  -------------------------------------------------------- */ 
 .dot {
   cursor: pointer;
   height: 15px;

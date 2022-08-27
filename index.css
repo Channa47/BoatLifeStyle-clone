@@ -28,7 +28,7 @@ body{
     font-size: 14px;
 }
 #main_navbar{
-    /* border: 2px solid white; */
+    gap: 50px;
     height: 50px;
     margin-top: 10px;
     display: flex;
