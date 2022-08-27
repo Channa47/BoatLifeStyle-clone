@@ -1,5 +1,5 @@
 
- let arr=JSON.parse(localStorage.getItem("cart_item")) ||[];
+ let arr=JSON.parse(localStorage.getItem("cart_items")) ||[];
 function setData(m,a,p,r,n){
     this.mobile=m;
     this.area=a;
@@ -20,8 +20,8 @@ function getdata(){
     alert("fill all details ")
    }
    else{
-    alert("order complate whithin 5-6 day ")
+    alert("order complate whithin 5-6 day deliver ")
     window.location.href="index.html"
    }
-   localStorage.setItem("cart_item",JSON.stringify(vala))
+   localStorage.setItem("cart_items",JSON.stringify(vala))
 }

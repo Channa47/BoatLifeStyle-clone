@@ -1,5 +1,5 @@
 
-let user_details=JSON.parse(localStorage.getItem("user_details")) || []
+let user_details=JSON.parse(localStorage.getItem("cart_items")) || []
 
 let open_manual=()=>{
         document.getElementById("manual").style.display="block";
@@ -37,7 +37,7 @@ let submit=()=>{
 
                 user_details[0]=user_obj;
 
-                localStorage.setItem("user_details",JSON.stringify(user_details));
+                localStorage.setItem("cart_items",JSON.stringify(user_details));
                 
                 
                 alert("payment proseccing")
