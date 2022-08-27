@@ -18,7 +18,7 @@ cartButton.forEach(box => {
   box.addEventListener('click', function handleClick(event) {
     alert("Item added to Cart")
     let obj={
-      image:document.getElementById("img").src,
+      img:document.getElementById("img").src,
       title:document.getElementById("title").innerText,
       price: Number(document.getElementById("price").innerText),
       discount: document.getElementById("discount").innerText
