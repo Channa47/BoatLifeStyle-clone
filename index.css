@@ -29,6 +29,7 @@ body{
 }
 #main_navbar{
     /* border: 2px solid white; */
+    gap: 100px;
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -326,9 +327,9 @@ a{
   width: 200px;
 }
 #gif{
-  margin-left: 30px;
+  margin-left: 50px;
   display: flex;
-  gap: 10px;
+  gap: 80px;
   margin-top: 50px;
 }
 .bhoooooom{
@@ -360,3 +361,48 @@ a{
 #nav_div_{
   display: flex;
 }
+#footer_part{
+  background-color: black;
+  margin-top: 50px;
+}
+.two>p{
+  color: aliceblue;
+}
+.two>h3{
+  color: aliceblue;
+}
+#big{
+  display: flex;
+  gap: 200px;
+}
+#footer_part>h3{
+  color: aliceblue;
+}
+#footer_part>p{
+  color: aliceblue;
+
+}
+#one>p{
+  color: aliceblue;
+}
+#type>button{
+  background-color: red;
+  color: antiquewhite;
+  width: 140px;
+  height: 36px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#type>input{
+  width: 200px;
+  height: 36px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+#onwtwothree{
+  width: 100%;
+}
+
+/* ===============================footer===================================== */
+
