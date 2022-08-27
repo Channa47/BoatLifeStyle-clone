@@ -293,6 +293,7 @@ margin-left: 15%;
     cursor: pointer;
     border-radius: 5px;
 }
+
 #krushna2{
     background-color: red;
     color: white;
@@ -419,4 +420,7 @@ h6{
 }
 #footer_part{
     margin-top: 25px;
+}
+#title>h3{
+    color: black;
 }

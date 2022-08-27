@@ -30,9 +30,9 @@ filter.onclick = function(){
 let product =[
     {
         label:"You save 57%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_black_72207866-b34c-4b47-885d-998168d62245_400x.png?v=1648108781",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"TRebl boAt Smart Watches 131",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_black_72207866-b34c-4b47-885d-998168d62245_400x.png?v=1648108781",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"TRebl boAt Smart Watches 131",
         rating:"4.6",
         reviews:"1112",
         price:1699,
@@ -41,9 +41,9 @@ let product =[
     },
     {
         label:"You save 60%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_86ea6392-558a-4943-ab86-f9f12fe8f4d9_400x.png?v=1646393709",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 411 ANC",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_86ea6392-558a-4943-ab86-f9f12fe8f4d9_400x.png?v=1646393709",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 411 ANC",
         rating:"4.8",
         reviews:"56",
         price:1999,
@@ -53,9 +53,9 @@ let product =[
 
       {
         label:"NEW",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_57e6221e-9677-434f-9175-f9051bc30c58_400x.png?v=1646027001",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 121 PRO",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_57e6221e-9677-434f-9175-f9051bc30c58_400x.png?v=1646027001",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 121 PRO",
         rating:"4.8",
         reviews:"565",
         price:1399,
@@ -64,9 +64,9 @@ let product =[
     },
     {
         label:"You save 73%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-5_400x.png?v=1658294451",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 402 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Untitled-5_400x.png?v=1658294451",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 402 - Wireless...",
         rating:"4.8",
         reviews:467,
         price:1599,
@@ -75,9 +75,9 @@ let product =[
     },
     {
         label:"You save 57%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_529ecf13-c993-4fe7-a2d6-9357f1a47db4_400x.png?v=1650387008",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 151 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_529ecf13-c993-4fe7-a2d6-9357f1a47db4_400x.png?v=1650387008",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 151 - Wireless...",
         rating:"4.9",
         reviews:"72",
         price:1299,
@@ -86,9 +86,9 @@ let product =[
     },
     {
         label:"TRENDING",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e7910a39-186a-41f6-ac57-fc3e84108104_400x.png?v=1625045106",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 151 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e7910a39-186a-41f6-ac57-fc3e84108104_400x.png?v=1625045106",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 151 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1049,
@@ -98,9 +98,9 @@ let product =[
 
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/black2_400x.png?v=1654312291",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 131 DC Edition",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/black2_400x.png?v=1654312291",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 131 DC Edition",
         rating:"4.8",
         reviews:"1112",
         price:1440,
@@ -109,9 +109,9 @@ let product =[
     },
     {
         label:"You save 28%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-images_400x.png?v=1655198531",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 141 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-images_400x.png?v=1655198531",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 141 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -120,9 +120,9 @@ let product =[
     },
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/9da7e1ae-89f2-42c4-9714-76ac5ec83817_400x.png?v=1625045743",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 131 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/9da7e1ae-89f2-42c4-9714-76ac5ec83817_400x.png?v=1625045743",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 131 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1299,
@@ -131,9 +131,9 @@ let product =[
     },
     {
         label:"You save 52%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_d2f6ad16-c97c-4600-88c1-b835fd58c647_400x.png?v=1646394582",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 131 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_d2f6ad16-c97c-4600-88c1-b835fd58c647_400x.png?v=1646394582",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 131 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -142,9 +142,9 @@ let product =[
     },
     {
         label:"You save 28%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3-2_400x.png?v=1653637007",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 101 .",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3-2_400x.png?v=1653637007",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 101 .",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -153,9 +153,9 @@ let product =[
     },
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-4_1_400x.png?v=1656016935",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Smart Watches 111 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-4_1_400x.png?v=1656016935",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Smart Watches 111 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -209,17 +209,18 @@ function append(product){
 
         labeldiv.append(label_text)
         let img1 = document.createElement("img")
-        img1.src=element.Image;
+        img1.src=element.img;
         let img2 = document.createElement("img")
-        img2.src = element.Image2
+        img2.src = element.img2
         subdiv1.append(labeldiv,img1)
 
 
 
         let subdiv2 = document.createElement("div")
         subdiv2.setAttribute("id","subdiv2")
-        let name = document.createElement("h3")
-        name.innerText = element.name;
+        let title = document.createElement("h4")
+        title.innerText = element.title;
+        title.setAttribute("id","title")
         let rating = document.createElement("p")
         let offerprice = document.createElement("p")
         offerprice.innerText=`₹${element.discountprice}`
@@ -242,7 +243,7 @@ function append(product){
                 localStorage.setItem("cart_items", JSON.stringify(cartitom))
               })
 
-        subdiv2.append(name,rating, line,price,offerprice,save,button)
+        subdiv2.append(title,rating, line,price,offerprice,save,button)
         main_div.append(subdiv1,subdiv2)
         container.append(main_div)
       
