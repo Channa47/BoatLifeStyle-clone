@@ -5,20 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Deals – boAt Lifestyle</title>
+    <link rel = "icon" href ="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202106/boat_1200_080621082427.jpg"
+        type = "image/x-icon">
     <link rel="stylesheet" href="./dailyDeals.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
      <!-- Cancel out noise with Airdopes  131.   -->
     <div class="announcment">
-        <a href="./Airdopes.html">
-        <div class="inner_announcment">
+        <!-- <a href="./Airdopes.html">
+        <div class="inner_announcment"> -->
         <b>All your favourite boAt products at heavy bargains. <span class="underline">Shop  NOW!</span></b>
-        </div>
-        </a>
+        <!-- </div>
+        </a> -->
+    </div>
+    <div id="main_navbar">
+      
+      
+
     </div>
    <!-- announcment part done here -->
   <!-- Navbar Part -->
-   <div id="main_navbar"></div>
+   
 
 <div id="countdown">
    <!-- Display the countdown timer in an element -->
@@ -228,18 +236,8 @@
 </div>
 
 <!-- ************  Footer Section*************************** -->
-<div class="text" style="background-color:
- #2c2c2c;padding: 20px;
-  text-align:center;
-  margin-top: 50px;">
- <p style="font-size: 16px;
- margin: auto;
- color: #8f8f8f;
- line-height: 20px;
- text-align: center;
-  width:70%;
- margin: auto">
- India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones,smart watches, and home audio. From workouts to adventures,
+<div id="text">
+<p>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones,smart watches, and home audio. From workouts to adventures,
  boAt will get you sailing!</p>
 </div>
 
@@ -249,12 +247,5 @@
 </html> 
 
 
-<script type="module">
-    import {footer} from "./footer.js"
-    document.getElementById("footer_part").innerHTML = footer();
-    import main_navbar from "./components.js";
-let container = document.getElementById("main_navbar");
-let navbar = main_navbar();
-container.innerHTML = navbar;
-</script>
-<script src="./dailyDeals.js"></script>
+
+<script src="./dailyDeals.js" type="MODULE"></script>

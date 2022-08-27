@@ -1,6 +1,9 @@
   .announcment {
   cursor: pointer;
   background-color: red;
+  text-align: center;
+  justify-content: center;
+  /* height: 10px; */
   }
   .inner_announcment {
   width: 100%;  
@@ -9,6 +12,7 @@
   text-align: center;
   padding: 10px 0px 10px 0px ;
   cursor: pointer;
+
   }
   .underline {
   text-decoration: underline;
@@ -525,8 +529,8 @@ color: #8F8F8F;
 #btn_div{
     text-align: center;
     justify-content: center;
-    margin-left: 250px;
-    margin-top: 20px;
+    /* margin-left: 10px; */
+    /* margin-top: 20px; */
     
 }
 #btn_div>button{
@@ -534,7 +538,8 @@ color: #8F8F8F;
     background-color: black;
     font-family: Sans-serif;
     font-size: 16px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+    margin-top: -50px;
 }
 #Shop_btn:hover,
 #Shop_btn:hover{
@@ -572,7 +577,7 @@ a{
 }
 #input_div{
     margin-left: 40px;
-    width: 230px;
+    width: 200px;
     /* border: 2px solid wheat; */
 } 
 #input{
@@ -592,17 +597,17 @@ a{
 }
 #l_img{
   width: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: -5px;
 }
 #g_img{
   width: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: -5px;
 }
 #c_img{
   width: 30px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* margin-bottom: -px; */
  
 }
@@ -843,4 +848,17 @@ a{
 /* =============================================================================== */
 #nav_div_{
   display: flex;
+}
+#text {
+  background-color: #2c2c2c;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+#text>p {
+  font-size: 16px;
+  margin: auto;
+  color: #8F8F8F;
+  text-align: center;
+  width: 70%;
 }
