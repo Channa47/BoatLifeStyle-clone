@@ -1,4 +1,12 @@
-// Countdown Part 
+
+import {footer} from "./footer.js"
+document.getElementById("footer_part").innerHTML = footer();
+import main_navbar from "./components.js";
+let con = document.getElementById("main_navbar");
+let navbar = main_navbar();
+console.log(navbar);
+con.innerHTML = navbar;
+ 
  var countDownDate = new Date("Aug 30, 20222 15:37:25").getTime();    
  var x = setInterval(function() {
     var now = new Date().getTime(); 

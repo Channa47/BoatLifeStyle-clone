@@ -293,6 +293,7 @@ margin-left: 15%;
     cursor: pointer;
     border-radius: 5px;
 }
+
 #krushna2{
     background-color: red;
     color: white;
@@ -328,3 +329,94 @@ margin-left: 15%;
     text-align: center;
     margin-top: 2%;
 }
+#big{
+    width: 95%;
+    margin-left: 30px;
+    height: 400px;
+    display: flex;
+    margin-top: 10px;
+}
+    #pc{
+margin-left: 10px;
+}
+#one{
+    height: 500px;
+    width: 35%;
+    color: #8F8F8F;
+}
+#one>p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+#type{
+    height: 35px;
+    width: 400px;
+    margin-top: 50px;
+}
+#type>input{
+    border-radius: 10px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 200px;
+}
+input+button{
+    height: 36px;
+    width: 140px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+}
+    button:hover{
+    background-color: red;      
+}
+.two{
+    height: 500px;
+    width: 20%;
+    margin-left: 30px;
+    font-size: 15px;
+    color: #8F8F8F;
+}
+    h3{
+    color: white;      
+}
+#bottom{
+    width: 90%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-around;
+    display: flex;
+    cursor: pointer;
+}
+#cards{
+    height: 80%;
+    margin-top: 7px;
+    width: 30%;
+}
+#cards>img{
+    width: 100%;
+    height: 100%;
+    margin-top: -6px;
+}
+#payment{
+    height: 80%;
+    margin-top: 7px;
+    width: 45%;
+    display: flex;
+    margin-left: 50px;
+}
+#payment>img{
+    margin-left: 30px;
+    width: 20%;
+}
+h6{
+    text-align: center;
+    color: beige;
+}
+#footer_part{
+    margin-top: 25px;

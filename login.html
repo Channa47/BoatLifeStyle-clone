@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account</title>
+    <link rel="stylesheet" href="./footer.css">
     <style>
+        #footer_part{
+            /* background-color: black; */
+        }
         *{
             background-color: #252525;
         }
@@ -84,12 +88,18 @@
     <div id="bottom">
         <p>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones, smart watches, and home audio. From workouts to adventures, boAt will get you sailing!</p>
     </div>
+
+    <div id="footer_part"></div>
    
 </body>
 </html>
-<script>
+<script type="MODULE">
+
+import {footer} from "./footer.js"
+document.getElementById("footer_part").innerHTML = footer();
+
      document.querySelector("form").addEventListener("submit",myfun)
-   Arr = JSON.parse(localStorage.getItem("clientDetail")) || []
+   let Arr = JSON.parse(localStorage.getItem("clientDetail")) || []
 function myfun(event){
     event.preventDefault()
      let clientData = {

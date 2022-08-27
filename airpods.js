@@ -30,9 +30,9 @@ filter.onclick = function(){
 let product =[
     {
         label:"You save 57%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_400x.png?v=1642405569",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"TRebl boAt Airdopes 131",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_400x.png?v=1642405569",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"TRebl boAt Airdopes 131",
         rating:"4.6",
         reviews:"1112",
         price:1699,
@@ -41,9 +41,9 @@ let product =[
     },
     {
         label:"You save 60%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/pink_93d7a9ed-186f-4081-a184-bad918274e7b_400x.png?v=1658994528",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 411 ANC",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/pink_93d7a9ed-186f-4081-a184-bad918274e7b_400x.png?v=1658994528",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 411 ANC",
         rating:"4.8",
         reviews:"56",
         price:1999,
@@ -53,9 +53,9 @@ let product =[
 
       {
         label:"NEW",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_400x.png?v=1657869596",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 121 PRO",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_400x.png?v=1657869596",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 121 PRO",
         rating:"4.8",
         reviews:"565",
         price:1399,
@@ -64,9 +64,9 @@ let product =[
     },
     {
         label:"You save 73%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2_3a9fc8f1-af42-4ce6-b87a-35aeed04e28a_400x.jpg?v=1658996617",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 402 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/2_3a9fc8f1-af42-4ce6-b87a-35aeed04e28a_400x.jpg?v=1658996617",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 402 - Wireless...",
         rating:"4.8",
         reviews:467,
         price:1599,
@@ -75,9 +75,9 @@ let product =[
     },
     {
         label:"You save 57%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_9230f72d-9f86-4aec-9ae2-a7d87d332877_400x.png?v=1647426798",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 151 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_9230f72d-9f86-4aec-9ae2-a7d87d332877_400x.png?v=1647426798",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 151 - Wireless...",
         rating:"4.9",
         reviews:"72",
         price:1299,
@@ -86,9 +86,9 @@ let product =[
     },
     {
         label:"TRENDING",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/iiolo_400x.png?v=1658150489",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 151 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/iiolo_400x.png?v=1658150489",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 151 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1049,
@@ -98,9 +98,9 @@ let product =[
 
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7925e2ed-89e7-4247-8f27-380ef0178294_400x.png?v=1625045867",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 131 DC Edition",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/7925e2ed-89e7-4247-8f27-380ef0178294_400x.png?v=1625045867",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 131 DC Edition",
         rating:"4.8",
         reviews:"1112",
         price:1440,
@@ -109,9 +109,9 @@ let product =[
     },
     {
         label:"You save 28%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-3_e05a4bee-499f-42da-8db5-e3921a185f5c_300x.png?v=1655526604",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 141 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-image-3_e05a4bee-499f-42da-8db5-e3921a185f5c_300x.png?v=1655526604",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 141 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -120,9 +120,9 @@ let product =[
     },
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_300x.png?v=1659614550",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 131 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_300x.png?v=1659614550",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 131 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1299,
@@ -131,9 +131,9 @@ let product =[
     },
     {
         label:"You save 52%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Grey_560cad08-698b-45d6-a3dd-d10ae3fec8ee_300x.png?v=1657775492",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 131 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Grey_560cad08-698b-45d6-a3dd-d10ae3fec8ee_300x.png?v=1657775492",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 131 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -142,9 +142,9 @@ let product =[
     },
     {
         label:"You save 28%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-381-mediumspinggreen_43d63b08-d281-4c88-aa0c-ab9fab9add89_400x.png?v=1622527413",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 101 .",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-381-mediumspinggreen_43d63b08-d281-4c88-aa0c-ab9fab9add89_400x.png?v=1622527413",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 101 .",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -153,9 +153,9 @@ let product =[
     },
     {
         label:"You save 58%",
-        Image:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-black_300x.png?v=1612765376",
-        Image2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
-        name:"boAt Airdopes 111 - Wireless...",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-black_300x.png?v=1612765376",
+        img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
+        title:"boAt Airdopes 111 - Wireless...",
         rating:"4.8",
         reviews:"1112",
         price:1500,
@@ -209,17 +209,17 @@ function append(product){
 
         labeldiv.append(label_text)
         let img1 = document.createElement("img")
-        img1.src=element.Image;
+        img1.src=element.img;
         let img2 = document.createElement("img")
-        img2.src = element.Image2
+        img2.src = element.img2
         subdiv1.append(labeldiv,img1)
 
 
 
         let subdiv2 = document.createElement("div")
         subdiv2.setAttribute("id","subdiv2")
-        let name = document.createElement("h3")
-        name.innerText = element.name;
+        let title = document.createElement("h4")
+        title.innerText = element.title;
         let rating = document.createElement("p")
         let offerprice = document.createElement("p")
         offerprice.innerText=`₹${element.discountprice}`
@@ -242,10 +242,13 @@ function append(product){
                 localStorage.setItem("cart_items", JSON.stringify(cartitom))
               })
 
-        subdiv2.append(name,rating, line,price,offerprice,save,button)
+        subdiv2.append(title,rating, line,price,offerprice,save,button)
         main_div.append(subdiv1,subdiv2)
         container.append(main_div)
       
 
     });
 }
+
+import{footer} from "./footer.js"
+document.getElementById("footer_part").innerHTML=footer()
