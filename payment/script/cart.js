@@ -2,7 +2,7 @@ var mainbox=document.querySelector("#vary");
     // displaydata(cartdata);
    var totalprice=0;
    var productTotal=0;
-    var cartdata=JSON.parse((localStorage.getItem("cartpage")))||[];
+    var cartdata=JSON.parse((localStorage.getItem("cart_items")))||[];
     console.log(cartdata);
     function displaydata(productData)
     {   mainbox.innerHTML="";
@@ -10,7 +10,20 @@ var mainbox=document.querySelector("#vary");
         document.querySelector("#Totalpriceof").innerHTML="₹ "+"";
         productData.forEach( function(elem,index) {
             productTotal=0;
-            var counter=elem.quantity;
+
+//             img: "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-121-v2-blue_400x.png?v=1612765376"
+// price: "₹1999"
+// reviews: "★4.6 | 958 reviews"
+// title: "boat air drops-131"
+
+
+
+
+
+
+
+
+            var counter=cartdata.length;
             var product =document.createElement("div");
             product.setAttribute("id","product");
             var div1=document.createElement("div");
@@ -21,15 +34,17 @@ var mainbox=document.querySelector("#vary");
             div3.setAttribute("id","div3");
             var div4=document.createElement("div");
             div4.setAttribute("id","div4");
+            div4.innerText = elem.price;
             var div5=document.createElement("div");
             div5.setAttribute("id","div5");
             var img=document.createElement("img");
             img.setAttribute("src",elem.pimg);
+            img.src=elem.img;
             var name=document.createElement("h1");
-            name.innerText=elem.pname;
+            name.innerText=elem.title;
             name.style.color="white";
             var price=document.createElement("h4");
-            price.innerText="₹ "+elem.pcost;
+            price.innerText="₹ "+elem.price;
             price.style.color="white";
             var h2=document.createElement("h2");
             h2.innerText=counter;
@@ -47,8 +62,8 @@ var mainbox=document.querySelector("#vary");
             console.log(counter);
             elem.quantity=counter;
             localStorage.setItem("cartpage",JSON.stringify(cartdata));
-            productTotal=Number(productTotal)+Number(h2.innerText)*(elem.pcost);
-            totalprice+=+productTotal;
+            productTotal=Number(productTotal)+Number(h2.innerText)*Number(elem.price);
+            totalprice+=productTotal;
             var button=document.createElement("button");
             button.innerText="Remove";
             button.addEventListener("click",function(){
@@ -59,7 +74,7 @@ var mainbox=document.querySelector("#vary");
             div2.append(name,price);
             div5.append(decreament,h2,increament);
             div3.append(div5,button);
-            div4.append(productTotal);
+            // div4.append(productTotal);
             product.append(div1,div2,div3,div4);
             mainbox.append(product);
         });

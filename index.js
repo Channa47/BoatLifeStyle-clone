@@ -1,10 +1,14 @@
 import main_navbar from "./components.js";
+
 let container = document.getElementById("main_navbar");
 document.getElementById("red_navbar").addEventListener("click",function(){
   window.location.reload();
 })
 let navbar = main_navbar();
 container.innerHTML = navbar;
+
+import {footer} from "./footer.js"
+document.getElementById("footer_part").innerHTML = footer();
 
 
 let slideIndex = 0;
@@ -43,6 +47,9 @@ function bhoom(){
   i1.src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/dropdown-TWS_540x.png?v=1612338251"
 
   let i2 = document.createElement("img");
+  i2.addEventListener("click",function(){
+    window.location.href = "./rockerz.html"
+  })
   i2.setAttribute("class","p_img");
   i2.src="https://cdn.shopify.com/s/files/1/0057/8938/4802/collections/Rectangle271_540x.png?v=1612338387"
 
@@ -195,6 +202,12 @@ input.addEventListener("keypress", function(event) {
     }
   }
 });
+
+// document.querySelector(".p_img").addEventListener("click",function(){
+//   window.location.href="./rockerz.html"
+//   console.log("channna")
+// })
+
 
  
 

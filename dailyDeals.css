@@ -1,6 +1,9 @@
   .announcment {
   cursor: pointer;
   background-color: red;
+  text-align: center;
+  justify-content: center;
+  /* height: 10px; */
   }
   .inner_announcment {
   width: 100%;  
@@ -9,6 +12,7 @@
   text-align: center;
   padding: 10px 0px 10px 0px ;
   cursor: pointer;
+
   }
   .underline {
   text-decoration: underline;
@@ -512,7 +516,7 @@ color: #8F8F8F;
     font-size: 14px;
 }
 #main_navbar{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -535,6 +539,7 @@ color: #8F8F8F;
     font-family: Sans-serif;
     font-size: 16px;
     /* margin-left: 5px; */
+    margin-top: -50px;
 }
 #Shop_btn:hover,
 #Shop_btn:hover{
@@ -592,17 +597,17 @@ a{
 }
 #l_img{
   width: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: -5px;
 }
 #g_img{
   width: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: -5px;
 }
 #c_img{
   width: 30px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* margin-bottom: -px; */
  
 }
@@ -843,4 +848,17 @@ a{
 /* =============================================================================== */
 #nav_div_{
   display: flex;
+}
+#text {
+  background-color: #2c2c2c;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+#text>p {
+  font-size: 16px;
+  margin: auto;
+  color: #8F8F8F;
+  text-align: center;
+  width: 70%;
 }

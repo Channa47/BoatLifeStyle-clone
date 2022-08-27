@@ -1,10 +1,10 @@
-// import {footer} from "./footer.js"
-// document.getElementById("footer_part").innerHTML = footer();
-// import main_navbar from "./components.js";
-// let con = document.getElementById("main_navbar");
-// let navbar = main_navbar();
-// console.log(navbar);
-// con.innerHTML = navbar;
+import {footer} from "./footer.js"
+document.getElementById("footer_part").innerHTML = footer();
+import main_navbar from "./components.js";
+let con = document.getElementById("main_navbar");
+let navbar = main_navbar();
+console.log(navbar);
+con.innerHTML = navbar;
  
  
  
