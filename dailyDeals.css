@@ -1,6 +1,9 @@
   .announcment {
   cursor: pointer;
   background-color: red;
+  text-align: center;
+  justify-content: center;
+  /* height: 10px; */
   }
   .inner_announcment {
   width: 100%;  
@@ -9,6 +12,7 @@
   text-align: center;
   padding: 10px 0px 10px 0px ;
   cursor: pointer;
+
   }
   .underline {
   text-decoration: underline;
@@ -16,236 +20,6 @@
   }
  
   /***************************footer part***************************************************/
-  body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-  }
-#login{
-  cursor: pointer;
-  width: 199px;
-  height: 22px;
-background-color: #ea2127;
-  color: white;
-  margin-left: 10px;
-  padding-top: 9px;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  }
-#dailyDeal {
-  cursor: pointer;
-  display: grid;
-  grid-template-columns: 443px 443px 443px;
-  grid-template-rows: 100% 100% 100%;
-  grid-column-gap: 10px;
-  width: 90%;
-  height: 487px;
-  margin: auto;
-  /* border: 1px solid red; */
-  margin-top: -30px;
-  color: white;
-  }
-  button {
-  font-family: Montserrat, sans-serif;
-  cursor: pointer;
-  background-color: black;
-  line-height:normal;
-  vertical-align:baseline;
-  letter-spacing:normal;
-  word-spacing:0px;
-  color: white;
-  border-radius: 50px;
-  width: 120px;
-  height: 37px;
-  margin-left: 15px;
-  margin-top: 10px;
-  border: none;
-  padding:11px 25px;
-  font-size: 13.8px;
-  font-weight: 500;
-  background-color: red;
-  }
-#boatImg{
-  width: 100px;
-  height: 45px;
-  margin-top: 40px;
-  margin-left: 10px;
-  }
-#boatImg:hover{
-  cursor: pointer;
-  opacity: 0.7;
-  }
-#footer{
-  display: flex;
-  }
-#leftDiv>p{
-color: #969696;
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 400; 
-  margin-top: 30px;
-  }
-#inputAndBtn{
-  display: flex;
-  padding: 10px;
-  border: 1px solid white;
-  height: 35px;
-  }
-#inputAndBtn input{
-  background-color: black;
-  color: whitesmoke; 
-  padding-right: 8px;
-  padding-left: 12px;
-  width: 200px;     
-  border-radius: 5px;
-  font-size: 13.33px;
-  font-weight: 400;
-  font-family: Arial;
-  }
-#inputAndBtn button{
-  cursor: pointer;
-  color: white;
-  border: 1.5px solid red;
-  padding: 8px 12px 8px 12px;
-  border-radius: 5px;
-  width: 130px;
-  height: 35px;
-  margin-left: 3px;
-  margin-top: 0px;
-  }
-#inputAndBtn button:hover{
-  background-color: red;
-  }
-#leftDiv{
-  width: 360px;
-  height: 550px;
-  margin-left: 160px; 
-  }
-#rightDiv{
-  display: flex;
-  width: 800px;
-  height: 550px;
-  margin-left: 40px;
-  font-size: large;
-  }
-#shopHelpComp{
-  display: flex;
-  }
-#shopfoot{
-  width: 190px;
-  height: 350px;
-  /* border: 1px solid blue; */
-  margin-top: 40px;
-  font-size: larger;
-  }
-#shopfoot>ul>li{
-  cursor: pointer;
-  }
-#help{
-  width: 190px;
-  height: 350px;
-  /* border: 1px solid blue; */
-  margin-top: 40px;
-  margin-left: 60px;
-  font-size: 18px;
-  }
-#help>ul>li{
-  cursor: pointer;
-  }
-#company{
-  width: 190px;
-  height: 350px;
-  /* border: 1px solid blue; */
-  margin-top: 40px;
-  margin-left: 60px;
-  font-size: larger;
-  }
-#company>ul>li{
-  cursor: pointer;
-  }
-#shopfoot>p,#help>p,#company>p{
-  font-size: 17px;
-  font-family: sans-serif;
-  font-weight: 600;
-  color: white;  
-  margin-top: 0px;
-  }
-#shopfoot>ul>li,#help>ul>li,#company>ul>li{
-color: #969696;
-  font-size: 14px;
-  font-family: sans-serif;
-  font-weight: 400;
-  line-height: 26px;
-  margin-left: -38px;
-  }
-#shopfoot>ul>li:nth-child(1),#help>ul>li:nth-child(1),#company>ul>li:nth-child(1){
-  margin-top: -7px;
-  }
-#SocialIcons{
-  display: flex;
-  margin-top: 230px;
-  }
-#twit{
-  width: 28px;
-  height: 28px;
-  margin-top: 5px;
-  }
-#fac{
-  width: 38px;
-  height: 38px;
-  }
-#yout{
-  width: 37px;
-  height: 37px;
-  }
-#insta{
-  width: 32px;
-  height: 32px;
-  margin-top: 3px;
-  }
-#linkdin{
-  width: 23px;
-  height: 23px;
-  margin-top: 7px;
-  }
-#Foot_cards{
-  width: 360px;
-  height: 60px;
-  margin-top: 20px;
-  }
-#fstore{
-  display: flex;
-  width: 600px;
-  height: 50px;
-  /* border: 1px solid red; */
-  margin-left: 680px;
-  margin-top: -56px;
-  }
-#fstore>p{
-  color: white;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  margin-right: 28px;
-  }
-#gstore{
-  margin-right: 10px;
-  cursor: pointer;
-  }
-#astore {
-  cursor: pointer;
-  }
-#copyRight{
-  font-family: sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  text-align: center;
-  color: whitesmoke;
-  }
-
-  /***********************************************************************************/
 #container {
   width: 95%;
   margin: auto;
@@ -268,6 +42,11 @@ background-color: #e3e3e3;
   width: 240px;
   height: 210px;
   }
+  #outer_div>img:hover {
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+}
 #inner_div {
   background-color: white;
   border-radius: 15px;
@@ -291,15 +70,25 @@ background-color: #e3e3e3;
 #inner_div>button {
 background-color: #f6c00b;
   width: 92%;
-  margin-top: -15px;
+  margin-top: -5px;
   text-align: center;
   margin: auto;
   border-radius: 5px;
   font-size: 18px;
+  cursor: pointer;
   }
-#button+p {
+  #inner_div>button:hover {
+    width: 200px;
+    text-decoration: underline;
+  }
+#inner_div>p:last-child {
   margin-top: 0px;
-background-color: #f6c00b;
+  background-color: #f6c00b;
+  cursor: pointer;
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 10px;
   }
 #sorting {
   padding: 3px;
@@ -327,6 +116,7 @@ background-color: #f6c00b;
 #sorting>option {
   padding: 10px;
   }
+  /*****************************************************************************/
 #countdown {
 background-color: #f6c00b;
   width: 20%;
@@ -374,145 +164,10 @@ background-color: #f6c00b;
   margin-left: 30px;
   }        
 
-  /********footer*******************/
+  /****************Footer Part**********/
 
-  /****************Navbar**********/
-#big{
-  width: 95%;
-  margin-left: 30px;
-  height: 400px;
-  display: flex;
-  margin-top: 10px;
-  /* border: 1px solid rgb(4, 100, 17); */
-  }
-#pc{
-  margin-left: 10px;
-  }
-#one{
-  height: 500px;
-  width: 35%;
-  /* border: 1px solid yellow; */
-color: #8F8F8F;
-  }
-#one>p{
-  font-size: 14px;
-  margin-left: 10px;
-  }
-#type{
-  height: 35px;
-  width: 400px;
-  margin-top: 50px;
-  }
-#type>input{
-  border-radius: 10px;
-  height: 35px;
-  background-color: black;
-  color: white;
-  margin-top: 10px;
-  width: 200px;
-  }
-  input+button{
-  height: 36px;
-  width: 140px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: black;
-  color: white;
-  border: 2px solid red;
-  }
-  button:hover{
-  background-color: red;      
-  }
-  .two{
-  height: 500px;
-  width: 20%;
-  margin-left: 30px;
-  font-size: 15px;
-color: #8F8F8F;
-  }
-  h3{
-  color: white;      
-  }
-#social{
-  height: 40px;
-  width: 250px;
-  margin-top: 20px;
-  margin-left: 75px;
-  }
-  .social_logo{
-  display: flex;
-  font-size: 30px;
-  color: white;
-  justify-content: space-between;
-  cursor: pointer;
-  }
-#bottom{
-  width: 90%;
-  height: 80px;
-  margin-top: 10px;
-  margin-left: 20px;
-  justify-content: space-around;
-  display: flex;
-  }
-#cards{
-  height: 80%;
-  margin-top: 7px;
-  width: 30%;
-  /* border: 1px solid red; */
-  }
-#cards>img{
-  width: 100%;
-  height: 100%;
-  margin-top: -6px;
-  }
-#payment{
-  height: 80%;
-  margin-top: 7px;
-  width: 45%;
-  /* border: 1px solid red; */
-  display: flex;
-  margin-left: 50px;
-  }
-#payment>img{
-  margin-left: 30px;
-  width: 20%;
-  }
-  h6{
-  text-align: center;
-  color: beige;
-  }
-  body{
-    background-color: black;
-}
-/* #red_navbar{
-    width: 100%;
-  
-    border: 2px red;
-    
-} */
-#red_navbar{
-    border: 2px solid red;
-    height: 26px;
-    /* width: 100%; */
-    background-color: red;
-    margin: 0px;
-    margin-top: -8px;
-    /* margin-left: -10px; */
-    /* position: absolute; */
-    text-align: center;
-    justify-content: center;
-    
-}
-#red_navbar>p{
-    font-style: monsterrant;
-    color: aliceblue;
-    margin-top: 6px;
-    font-family: Sans-serif;
-    font-size: 14px;
-}
+/******************Navbar***************************************/
 #main_navbar{
-    /* border: 2px solid white; */
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -525,16 +180,21 @@ color: #8F8F8F;
 #btn_div{
     text-align: center;
     justify-content: center;
+
     margin-left: 250px;
-    margin-top: 20px;
+    margin-top: 20px;    
+
     
+    
+
 }
 #btn_div>button{
     color: aliceblue;
     background-color: black;
     font-family: Sans-serif;
     font-size: 16px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+    margin-top: -50px;
 }
 #Shop_btn:hover,
 #Shop_btn:hover{
@@ -549,7 +209,6 @@ color: #8F8F8F;
     background-repeat: no-repeat;
     transition: background-size 400ms;
 }
-
   /* ------------------------------------------------ */
 a:hover,
 a:focus {
@@ -572,7 +231,7 @@ a{
 }
 #input_div{
     margin-left: 40px;
-    width: 230px;
+    width: 200px;
     /* border: 2px solid wheat; */
 } 
 #input{
@@ -592,93 +251,23 @@ a{
 }
 #l_img{
   width: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: -5px;
 }
 #g_img{
   width: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-bottom: -5px;
 }
 #c_img{
   width: 30px;
   margin-top: 20px;
-  /* margin-bottom: -px; */
- 
 }
+
 #num{
   color: red;
 }
-/* -------------------------------------------------------- */
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  margin-top: 10px;
-  /* border: 2px solid yellow; */
-}
-.slideshow-container:hover{
-    cursor: pointer;
-}
-
-
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
+/*  -------------------------------------------------------- */ 
 .dot {
   cursor: pointer;
   height: 15px;
@@ -693,38 +282,7 @@ a{
 .active, .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 /* --------------------------------------------------------------------------------- */
-#subdiv1{
-  display: felx;
-  /* border: 2px solid white; */
- 
-}
-#subdiv2{
-  display: felx;
-  /* border: 2px solid white; */
- 
-}
-#subdiv3{
-  display: felx;
-  /* border: 2px solid white; */
-  margin-left: 120px;
-}
-.p_img{
-  width: 240px;
-  margin-left: 30px;
-  margin-top: 10px;
-}
 #more_btn_img{
   background-image : url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/web-banner-shop-now_2_f29ea286-44e1-4022-aa8f-fcd2d3d0bc0c_2000x.jpg?v=1659763025")
 }
@@ -744,14 +302,11 @@ a{
   /* border: 2px solid yellow; */
   margin-left: 50px;
   border-radius: 20px;
-  background-color: azure; 
-  
+  background-color: azure;  
 }
 .p_div{
   margin-right: 10px;
-  border: red;
- 
-  
+  border: red;  
 }
 .add_to_cart_btn{
   background-color: rgb(215, 215, 27);
@@ -774,12 +329,10 @@ a{
   gap: 10px;
   margin-top: -10px;
 }
-
 .products{
   width:250px;
   margin-right: -20px;
-  /* border: 2px saddlebrown; */
-
+  border: 2px saddlebrown;
 }
 .head{
   color: aliceblue;
@@ -805,18 +358,6 @@ a{
   background-color:whitesmoke;
   width: 250px;
   margin-left: 33px;
-}
-.video{
-  width: 200px;
-}
-#gif{
-  margin-left: 30px;
-  display: flex;
-  gap: 10px;
-  margin-top: 50px;
-}
-.bhoooooom{
-  border: 2px white;
 }
 /* ================================================== */
 /*  */
@@ -844,3 +385,17 @@ a{
 #nav_div_{
   display: flex;
 }
+#text {
+  background-color: #2c2c2c;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+#text>p {
+  font-size: 16px;
+  margin: auto;
+  color: #8F8F8F;
+  text-align: center;
+  width: 70%;
+}
+

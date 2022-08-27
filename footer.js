@@ -7,12 +7,9 @@ function footer() {
 <p>Subscribe to email alerts. We promise not to spam your inbox.</p>
 
 <div id="type">
-
-<input  id=" mail" type="text" placeholder="Email Address*">
-<button>SUBSCRIBE</button>
-</div>                   
-
-
+    <input  id=" mail" type="email" placeholder="Email Address*">
+    <button onclick="Add()">SUBSCRIBE</button>
+</div>
 </div>
 
 <div Class="two">
@@ -70,8 +67,12 @@ function footer() {
 </div>
 <div id="payment">
 <h3>DOWNLOAD THE APP</h3>
-<img  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/google-play.png?v=1608620293" />
+<a href="https://play.google.com/store/apps/details?id=boatlifestylein.android.app">
+<img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/google-play.png?v=1608620293" >
+</a>
+<a href="https://apps.apple.com/us/app/id1521646593">
 <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/app-store.png?v=1608620293" />
+</a>
 </div>
 </div>
 <h6>2022 Imagine Marketing Limited. All Rights Reserved.</h6>
