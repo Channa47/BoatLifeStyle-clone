@@ -828,7 +828,7 @@ let productData=[ { pimg:
 
  var mainbox=document.querySelector("#box");
     displaydata(productData);
-    var cartdata=JSON.parse(localStorage.getItem("cartpage"))||[];
+    var cartdata=JSON.parse(localStorage.getItem("cart_items"))||[];
     console.log(cartdata);
     function displaydata(productData)
     {
@@ -853,7 +853,7 @@ let productData=[ { pimg:
                        console.log(cartdata);
                        cartdata.push(elem);
                        console.log(cartdata);
-                       localStorage.setItem("cartpage",JSON.stringify(cartdata));
+                       localStorage.setItem("cart_items",JSON.stringify(cartdata));
                        console.log(cartdata);
                    }
                    else
