@@ -1,12 +1,12 @@
 let main_navbar = ()=>{
-    return `<div><img id="boat_icon" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229" alt=""></div>
+    return `    <div><a href="./index.html"><img id="boat_icon" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x_200x_f9c79bf9-9c9a-477d-ab6a-7c889a1f2f70_170x.png?v=1646731229" alt=""></a> </div>
     <div id="btn_div">
        <button id="Shop_btn">Shop &#9660;</button>
         <button>
-            <a href="">Daily deals</a>
+            <a href="./dailyDeals.html">Daily deals</a>
         </button>
         <button>
-            <a href="">Offer zones </a></button>
+            <a href="./offerzone.html">Offer zones </a></button>
         <button id="more_btn">
             <a href="">More &#9660;</a>
         </button>
