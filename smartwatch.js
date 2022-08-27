@@ -249,3 +249,8 @@ function append(product){
 
     });
 }
+
+//footer.js
+
+import{footer} from "./footer.js"
+document.getElementById("footer_part").innerHTML=footer()
