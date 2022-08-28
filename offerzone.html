@@ -59,11 +59,11 @@
     <div id="container">        
         <div id="main_div">
         <div id="outer_div">
-        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0893f345-8dbf-4b30-a3fd-8f717bb34d93_400x.png?v=1625045856"  >
+        <img id="img" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/0893f345-8dbf-4b30-a3fd-8f717bb34d93_400x.png?v=1625045856"  >
         <div id="inner_div">
-        <h4>boAt Rockerz 510</h4>
+        <h4 id="tit">boAt Rockerz 510</h4>
         <p>4.8 | 133 reviews</p>
-        <h3>1099</h3>
+        <h3 id="price">1099</h3>
         <h4>You Save: Rs.2391(69%)</h4>
         <button class="add_cart">ADD TO CART</button>
         <p>67% sold</p>
@@ -254,6 +254,33 @@
     let container = document.getElementById("main_navbar");
     let navbar = main_navbar();
     container.innerHTML = navbar;
+
+
+    let count =JSON.parse(localStorage.getItem("cart_items")).length || [].length;
+    console.log(count);
+    let c_con = document.getElementById("num");
+    c_con.innerText = count;
+    let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
+    document.querySelector(".add_cart").addEventListener("click",function(){
+        additm();
+    })
+        function additm(){
+        function products (t,i,p){
+            this.title = t;
+            this.img = i;
+            this.price = p;
+        }
+        let i = document.getElementById("img").src;
+        let t = document.getElementById("tit").innerText;
+        let p = document.getElementById("price").innerText;
+
+        let p1 = new products(t,i,p);
+        cart_items.push(p1);
+        localStorage.setItem("cart_items",JSON.stringify(cart_items));
+        c_con.innerText = null;
+        c_con.innerText = cart_items.length;
+        
+    }
 </script>
 
 <script src="./offerzone.js"></script>

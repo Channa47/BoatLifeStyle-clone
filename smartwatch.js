@@ -38,6 +38,7 @@ let product =[
         price:1699,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 60%",
@@ -49,6 +50,7 @@ let product =[
         price:1999,
         discountprice:"4990",
         save:"2991",
+        quantity:1,
     },
 
       {
@@ -61,6 +63,7 @@ let product =[
         price:1399,
         discountprice:"2990",
         save:"1591",
+        quantity:1,
     },
     {
         label:"You save 73%",
@@ -72,6 +75,7 @@ let product =[
         price:1599,
         discountprice:"5990",
         save:"4391",
+        quantity:1,
     },
     {
         label:"You save 57%",
@@ -83,6 +87,7 @@ let product =[
         price:1299,
         discountprice:"2990",
         save:"1691",
+        quantity:1,
     },
     {
         label:"TRENDING",
@@ -94,6 +99,7 @@ let product =[
         price:1049,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
 
     {
@@ -106,6 +112,7 @@ let product =[
         price:1440,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 28%",
@@ -117,6 +124,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 58%",
@@ -128,6 +136,7 @@ let product =[
         price:1299,
         discountprice:"2990",
         save:"1691",
+        quantity:1,
     },
     {
         label:"You save 52%",
@@ -139,6 +148,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 28%",
@@ -150,6 +160,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 58%",
@@ -161,6 +172,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
 
 ]
@@ -220,7 +232,6 @@ function append(product){
         subdiv2.setAttribute("id","subdiv2")
         let title = document.createElement("h4")
         title.innerText = element.title;
-        title.setAttribute("id","title")
         let rating = document.createElement("p")
         let offerprice = document.createElement("p")
         offerprice.innerText=`₹${element.discountprice}`

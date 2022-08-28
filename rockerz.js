@@ -39,6 +39,7 @@ let product =[
         price:1699,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 60%",
@@ -50,6 +51,7 @@ let product =[
         price:1999,
         discountprice:"4990",
         save:"2991",
+        quantity:1,
     },
 
       {
@@ -62,6 +64,7 @@ let product =[
         price:1399,
         discountprice:"2990",
         save:"1591",
+        quantity:1,
     },
     {
         label:"You save 73%",
@@ -73,6 +76,7 @@ let product =[
         price:1599,
         discountprice:"5990",
         save:"4391",
+        quantity:1,
     },
     {
         label:"You save 57%",
@@ -84,10 +88,11 @@ let product =[
         price:1299,
         discountprice:"2990",
         save:"1691",
+        quantity:1,
     },
     {
         label:"TRENDING",
-        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/e5881832-36f8-4c1c-a767-10f2c2a55a02_400x.png?v=1625046573",
+        img:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-R333_300x.png?v=1641801662",
         img2:"https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_400x.png?v=1642405569",
         title:"boAt Headphone 151 - Wireless...",
         rating:"4.8",
@@ -95,6 +100,7 @@ let product =[
         price:1049,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
 
     {
@@ -107,6 +113,7 @@ let product =[
         price:1440,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 28%",
@@ -118,6 +125,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 58%",
@@ -129,6 +137,7 @@ let product =[
         price:1299,
         discountprice:"2990",
         save:"1691",
+        quantity:1,
     },
     {
         label:"You save 52%",
@@ -140,6 +149,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 28%",
@@ -151,6 +161,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 58%",
@@ -162,6 +173,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
 
 ]
@@ -219,7 +231,7 @@ function append(product){
 
         let subdiv2 = document.createElement("div")
         subdiv2.setAttribute("id","subdiv2")
-        let title = document.createElement("h4")
+        let title = document.createElement("h3")
         title.innerText = element.title;
         let rating = document.createElement("p")
         let offerprice = document.createElement("p")

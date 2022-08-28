@@ -1,9 +1,5 @@
 import main_navbar from "./components.js";
 
-import {footer} from "./footer.js"
-let foot = document.getElementById("footer");
-foot.innerHTML = footer();
-
 let container = document.getElementById("main_navbar");
 document.getElementById("red_navbar").addEventListener("click",function(){
   window.location.reload();
@@ -168,13 +164,14 @@ document.getElementById("num").innerText = car_arr.length;
 
   console.log(img,title,reviews,price);
 
-  function data (i,t,r,p){
+  function data (i,t,r,p,q){
     this.img = i;
     this.title = t;
     this.reviews = r;
     this.price = p;
+    this.quantity = q;
   }
-  let p1 = new data(img,title,reviews,price);
+  let p1 = new data(img,title,reviews,price,1);
   console.log(p1);
   car_arr.push(p1);
 
@@ -203,6 +200,8 @@ input.addEventListener("keypress", function(event) {
       window.location.href="./airpods.html"
     }else if(q==="smartwatch"){
       window.location.href="./smartwatch.html"
+    }else if(q==="trending"){
+      window.location.href = "../Project Files/payment/add_to_cart.html";
     }
   }
 });
