@@ -38,6 +38,7 @@ let product =[
         price:1699,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 60%",
@@ -49,6 +50,7 @@ let product =[
         price:1999,
         discountprice:"4990",
         save:"2991",
+        quantity:1,
     },
 
       {
@@ -61,6 +63,7 @@ let product =[
         price:1399,
         discountprice:"2990",
         save:"1591",
+        quantity:1,
     },
     {
         label:"You save 73%",
@@ -72,6 +75,7 @@ let product =[
         price:1599,
         discountprice:"5990",
         save:"4391",
+        quantity:1,
     },
     {
         label:"You save 57%",
@@ -83,6 +87,7 @@ let product =[
         price:1299,
         discountprice:"2990",
         save:"1691",
+        quantity:1,
     },
     {
         label:"TRENDING",
@@ -94,6 +99,7 @@ let product =[
         price:1049,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
 
     {
@@ -106,6 +112,7 @@ let product =[
         price:1440,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 28%",
@@ -117,6 +124,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 58%",
@@ -128,6 +136,7 @@ let product =[
         price:1299,
         discountprice:"2990",
         save:"1691",
+        quantity:1,
     },
     {
         label:"You save 52%",
@@ -139,6 +148,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 28%",
@@ -150,6 +160,7 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
     {
         label:"You save 58%",
@@ -161,7 +172,9 @@ let product =[
         price:1500,
         discountprice:"2990",
         save:"1891",
+        quantity:1,
     },
+    
 
 ]
 ;
@@ -190,6 +203,9 @@ product.sort(function(a,b){
   }
 
 append(product);
+let count = document.getElementById("num");
+let cartitom = JSON.parse(localStorage.getItem("cart_items")) || []
+count.innerText = cartitom.length;
 
 function append(product){
 
@@ -237,9 +253,11 @@ function append(product){
         button.innerText="ADD TO CART"
         button.addEventListener("click", function (el) {
       
-            let cartitom = JSON.parse(localStorage.getItem("cart_items")) || []      
+               console.log(cartitom)   
             cartitom.push(element)
-                localStorage.setItem("cart_items", JSON.stringify(cartitom))
+            localStorage.setItem("cart_items", JSON.stringify(cartitom))
+            count.innerText = "";
+            count.innerText = cartitom.length;
               })
 
         subdiv2.append(title,rating, line,price,offerprice,save,button)
@@ -252,3 +270,16 @@ function append(product){
 
 import{footer} from "./footer.js"
 document.getElementById("footer_part").innerHTML=footer()
+
+
+// let btn = document.getElementById("addtocart");
+// let count = document.getElementById("num");
+// let cart_items = JSON.parse(localStorage.getItem("cart_items")) || []
+// count.innerText = cart_items.length ;
+// btn.addEventListener("click",function(){
+//     additemtocart();
+// })
+
+// function additemtocart(){
+//     product 
+// }

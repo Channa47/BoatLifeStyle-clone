@@ -28,7 +28,7 @@ body{
     font-size: 14px;
 }
 #main_navbar{
-
+    /* border: 2px solid white; */
     gap: 50px;
     height: 50px;
     margin-top: 10px;
@@ -350,10 +350,8 @@ a{
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
- 
+  font-size: 18px; /* Increase font size */ 
 }
-
 #myBtn:hover {
   background-color: rgb(248, 242, 242); /* Add a dark-grey background on hover */
 }
@@ -361,7 +359,4 @@ a{
 #nav_div_{
   display: flex;
 }
-
-/* ===============================footer===================================== */
-
 
